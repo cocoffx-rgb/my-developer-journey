@@ -1,0 +1,1353 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Beyond the Code | Portfolio of an aspiring developer</title>
+<!-- ==========================================================================
+     HEAD CODE  ·  Beyond the Code
+     Paste into: Page Settings → Custom Code → Head Code (GoHighLevel).
+     Replace every value marked REPLACE. Also set the page's SEO title and
+     description in the GHL page settings (they take priority for <title>).
+     ========================================================================== -->
+<meta name="description" content="REPLACE: Portfolio of an aspiring developer building AI automation, workflow engineering and custom websites with n8n, GoHighLevel, Make, Zapier and APIs.">
+<meta name="theme-color" content="#F8F6F1">
+
+<!-- Social sharing -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Beyond the Code: Portfolio of an aspiring developer">
+<meta property="og:description" content="Practice workflows, experiments and projects across AI automation, workflow engineering and web design.">
+<meta property="og:url" content="https://REPLACE-your-domain.com/">
+<meta property="og:image" content="https://REPLACE-your-domain.com/share-image-1200x630.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Beyond the Code: Portfolio of an aspiring developer">
+<meta name="twitter:description" content="Practice workflows, experiments and projects across AI automation, workflow engineering and web design.">
+<meta name="twitter:image" content="https://REPLACE-your-domain.com/share-image-1200x630.jpg">
+
+<!-- Fonts: Newsreader (display) + Instrument Sans (text) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300;1,6..72,400&family=Instrument+Sans:wght@400;500;600;700&display=swap">
+
+<!-- Structured data: no claims beyond what you supply -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "REPLACE: Your Name",
+  "url": "https://REPLACE-your-domain.com/",
+  "jobTitle": "Aspiring developer (AI automation and web)",
+  "knowsAbout": ["n8n", "GoHighLevel", "Make", "Zapier", "AI agents", "APIs", "Webhooks", "Web development", "Graphic design"],
+  "sameAs": ["https://github.com/REPLACE-your-username", "https://www.linkedin.com/in/REPLACE-your-profile"]
+}
+</script>
+<style>html{scroll-padding-top:68px}body{margin:0;background:#F8F6F1}</style>
+</head><body>
+<!-- Beyond the Code: paste this whole block into one full-width GoHighLevel Custom JS/HTML element. -->
+<style>
+/* ==========================================================================
+   Beyond the Code — styles.css
+   Everything is scoped under #bty so it can live inside a GoHighLevel
+   Custom Code element without fighting the builder's global styles.
+   Palette: Warm White #F8F6F1 · Espresso #30271F · Muted Sage #A3AD96 · Soft Stone #E7E1D8
+   ========================================================================== */
+
+#bty {
+  --warm: #F8F6F1;
+  --esp: #30271F;
+  --sage: #A3AD96;
+  --stone: #E7E1D8;
+  --esp-2: #3B3128;
+  --ink-soft: rgba(48, 39, 31, .74);
+  --ink-line: rgba(48, 39, 31, .14);
+  --warm-soft: rgba(248, 246, 241, .76);
+  --warm-line: rgba(248, 246, 241, .18);
+  --serif: 'Newsreader', 'Iowan Old Style', Georgia, 'Times New Roman', serif;
+  --sans: 'Instrument Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --ease: cubic-bezier(.22, .8, .24, 1);
+  --grain: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .19 0 0 0 0 .15 0 0 0 0 .12 0 0 0 .55 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+  position: relative;
+  display: block;
+  width: 100%;
+  background: var(--warm);
+  color: var(--esp);
+  font-family: var(--sans);
+  font-size: 1rem;
+  line-height: 1.7;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: clip;
+}
+#bty *, #bty *::before, #bty *::after { box-sizing: border-box; }
+#bty img, #bty svg, #bty canvas { display: block; max-width: 100%; }
+#bty h1, #bty h2, #bty h3, #bty h4, #bty p, #bty ul, #bty ol, #bty dl, #bty dd, #bty dt, #bty figure { margin: 0; padding: 0; }
+#bty ul, #bty ol { list-style: none; }
+#bty a { color: inherit; text-decoration: none; }
+#bty button { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; text-align: inherit; }
+#bty button:disabled { cursor: not-allowed; opacity: .55; }
+#bty [role="tab"] { cursor: pointer; }
+#bty :focus-visible { outline: 2px solid var(--esp); outline-offset: 3px; border-radius: 6px; }
+#bty .b-dark :focus-visible, #bty .b-sage :focus-visible { outline-color: var(--warm); }
+#bty .b-sage :focus-visible { outline-color: var(--esp); }
+
+#bty h1, #bty h2, #bty h3 { font-family: var(--serif); font-weight: 300; letter-spacing: -.025em; line-height: 1.05; }
+#bty h1 { font-size: clamp(2.8rem, 6.4vw, 5.7rem); line-height: 1.01; letter-spacing: -.035em; }
+#bty h2 { font-size: clamp(2.2rem, 4.6vw, 3.9rem); }
+#bty h3 { font-size: clamp(1.4rem, 2.1vw, 1.8rem); line-height: 1.18; letter-spacing: -.015em; }
+#bty h4 { font: 600 .82rem/1.3 var(--sans); letter-spacing: .01em; }
+#bty em { font-style: italic; }
+
+#bty .b-skip { position: absolute; left: 16px; top: -60px; z-index: 10000; background: var(--esp); color: var(--warm); padding: .7rem 1.1rem; border-radius: 999px; font-weight: 600; transition: top .2s; }
+#bty .b-skip:focus { top: 12px; }
+
+/* Layout ------------------------------------------------------------------ */
+#bty .b-wrap { position: relative; z-index: 1; width: min(1200px, 100% - 2 * clamp(20px, 5vw, 56px)); margin-inline: auto; }
+#bty .b-sec { position: relative; padding: clamp(96px, 13vw, 176px) 0; overflow: hidden; }
+#bty .b-dark { background: var(--esp); color: var(--warm); }
+#bty .b-stone { background: var(--stone); }
+#bty .b-sage { background: var(--sage); color: var(--esp); }
+#bty .b-grain::before { content: ''; position: absolute; inset: 0; background-image: var(--grain); opacity: .06; mix-blend-mode: multiply; pointer-events: none; }
+#bty .b-dark.b-grain::before { mix-blend-mode: screen; opacity: .05; }
+#bty .b-sh { max-width: 44rem; margin-bottom: clamp(40px, 6vw, 80px); }
+#bty .b-lede { margin-top: 1.5rem; font-size: clamp(1.02rem, 1.3vw, 1.16rem); color: var(--ink-soft); max-width: 38rem; }
+#bty .b-dark .b-lede { color: var(--warm-soft); }
+#bty .b-sage .b-lede { color: rgba(48, 39, 31, .86); }
+#bty .b-decor { position: absolute; z-index: 0; border-radius: 50%; pointer-events: none; filter: blur(2px); will-change: transform; }
+
+/* Buttons ----------------------------------------------------------------- */
+#bty .b-btn { display: inline-flex; align-items: center; justify-content: center; gap: .6rem; padding: .95rem 1.7rem; border-radius: 999px; background: var(--esp); color: var(--warm); font: 600 .92rem/1 var(--sans); letter-spacing: .01em; border: 1px solid var(--esp); transition: transform .35s var(--ease), background .3s, color .3s, box-shadow .35s, border-color .3s; }
+#bty .b-btn:hover { transform: translateY(-2px); box-shadow: 0 16px 30px -16px rgba(48, 39, 31, .6); }
+#bty .b-btn--ghost { background: transparent; color: var(--esp); border-color: rgba(48, 39, 31, .3); }
+#bty .b-btn--ghost:hover { background: var(--stone); box-shadow: none; }
+#bty .b-btn--sm { padding: .68rem 1.15rem; font-size: .82rem; }
+#bty .b-dark .b-btn { background: var(--warm); color: var(--esp); border-color: var(--warm); }
+#bty .b-dark .b-btn--ghost { background: transparent; color: var(--warm); border-color: var(--warm-line); }
+#bty .b-dark .b-btn--ghost:hover { background: rgba(248, 246, 241, .08); }
+#bty .b-badge { display: inline-block; padding: .35rem .8rem; border: 1px dashed currentColor; border-radius: 999px; font-size: .78rem; font-weight: 500; opacity: .85; }
+#bty .b-chip { display: inline-block; padding: .22rem .7rem; border-radius: 999px; background: rgba(48, 39, 31, .08); font-size: .76rem; font-weight: 600; }
+#bty .b-dark .b-chip { background: rgba(248, 246, 241, .1); }
+
+/* Navigation -------------------------------------------------------------- */
+#bty .b-progress { position: fixed; top: 0; left: 0; right: 0; height: 2px; z-index: 9995; pointer-events: none; }
+#bty .b-progress span { display: block; height: 100%; background: var(--sage); transform-origin: left; transform: scaleX(0); }
+#bty .b-nav { position: fixed; inset: 0 0 auto 0; z-index: 9990; transition: background .4s, box-shadow .4s; }
+#bty .b-nav.is-stuck { background: rgba(248, 246, 241, .84); -webkit-backdrop-filter: blur(14px) saturate(1.2); backdrop-filter: blur(14px) saturate(1.2); box-shadow: 0 1px 0 var(--ink-line); }
+#bty .b-nav-in { width: min(1280px, 100% - 2 * clamp(20px, 4vw, 48px)); margin: auto; height: 68px; display: flex; align-items: center; justify-content: space-between; }
+#bty .b-brand { display: inline-flex; align-items: center; gap: .7rem; font-family: var(--serif); font-size: 1.2rem; letter-spacing: -.01em; }
+#bty .b-dot { width: 16px; height: 16px; border-radius: 50%; background: radial-gradient(circle at 30% 28%, #fff, var(--stone) 38%, var(--sage) 100%); box-shadow: inset -2px -3px 5px rgba(48, 39, 31, .35); }
+#bty .b-links { display: flex; align-items: center; gap: .25rem; }
+#bty .b-links a:not(.b-btn) { position: relative; padding: .5rem .8rem; font-size: .88rem; font-weight: 500; opacity: .78; transition: opacity .25s; }
+#bty .b-links a:not(.b-btn):hover, #bty .b-links a.is-active { opacity: 1; }
+#bty .b-links a.is-active::after { content: ''; position: absolute; left: 50%; bottom: 2px; width: 4px; height: 4px; margin-left: -2px; border-radius: 50%; background: var(--esp); }
+#bty .b-links .b-btn { margin-left: .6rem; }
+#bty .b-menu { display: none; width: 44px; height: 44px; border-radius: 50%; position: relative; }
+#bty .b-menu span { position: absolute; left: 13px; right: 13px; height: 1.5px; background: var(--esp); transition: transform .3s var(--ease), top .3s var(--ease); }
+#bty .b-menu span:nth-child(1) { top: 18px; } #bty .b-menu span:nth-child(2) { top: 25px; }
+#bty .b-menu[aria-expanded="true"] span:nth-child(1) { top: 21px; transform: rotate(45deg); }
+#bty .b-menu[aria-expanded="true"] span:nth-child(2) { top: 21px; transform: rotate(-45deg); }
+
+/* Hero -------------------------------------------------------------------- */
+#bty .b-hero { position: relative; min-height: 100vh; min-height: 100svh; display: flex; align-items: center; padding: 110px 0 72px; overflow: hidden;
+  background: radial-gradient(58% 58% at 76% 44%, rgba(163, 173, 150, .38), transparent 70%), radial-gradient(48% 48% at 6% 96%, var(--stone), transparent 70%), var(--warm); }
+#bty .b-hero-grid { display: grid; grid-template-columns: minmax(0, 1.08fr) minmax(0, .92fr); gap: clamp(20px, 4vw, 64px); align-items: center; }
+#bty .b-hero-kicker { font-size: .95rem; font-weight: 500; color: var(--ink-soft); margin-bottom: 1.6rem; }
+#bty .b-hero h1 span { display: block; }
+#bty .b-hero-intro { margin-top: 1.8rem; max-width: 33rem; font-size: clamp(1.02rem, 1.4vw, 1.2rem); color: var(--ink-soft); }
+#bty .b-cta { display: flex; flex-wrap: wrap; gap: .9rem; margin-top: 2.4rem; }
+#bty .b-hero-note { margin-top: 3rem; font-family: var(--serif); font-style: italic; font-size: 1.1rem; color: var(--ink-soft); }
+#bty .b-stage { position: relative; width: 100%; aspect-ratio: 1 / 1; max-height: 78vh; margin-inline: auto; transform: translate3d(0, calc(var(--hp, 0) * 40px), 0); }
+#bty .b-canvas { position: absolute; inset: 0; width: 100% !important; height: 100% !important; opacity: 0; transition: opacity 1.4s var(--ease); }
+#bty .b-stage.is-3d .b-canvas { opacity: 1; }
+#bty .b-orb { position: absolute; inset: 15%; transition: opacity 1s; }
+#bty .b-orb-body { position: absolute; inset: 0; border-radius: 50%; background: radial-gradient(circle at 32% 26%, rgba(255, 255, 255, .96), rgba(231, 225, 216, .6) 28%, rgba(163, 173, 150, .6) 62%, rgba(48, 39, 31, .4) 100%); box-shadow: inset -18px -26px 60px rgba(48, 39, 31, .28), inset 14px 18px 40px rgba(255, 255, 255, .7), 0 50px 80px -30px rgba(48, 39, 31, .45); animation: b-float 8s ease-in-out infinite; }
+#bty .b-orb-body::before { content: ''; position: absolute; inset: 22%; border-radius: 30%; background: var(--sage); transform: rotate(18deg); opacity: .8; box-shadow: inset -6px -8px 14px rgba(48, 39, 31, .3); }
+#bty .b-orb-body::after { content: ''; position: absolute; inset: -12%; border-radius: 50%; border: 1px solid rgba(48, 39, 31, .35); transform: rotateX(68deg); }
+#bty .b-orb i { position: absolute; width: 14px; height: 14px; border-radius: 50%; background: var(--esp); animation: b-float 6s ease-in-out infinite; }
+#bty .b-orb i:nth-child(2) { left: -8%; top: 30%; animation-delay: -1s; } #bty .b-orb i:nth-child(3) { right: -6%; top: 58%; background: var(--sage); animation-delay: -3s; } #bty .b-orb i:nth-child(4) { left: 40%; bottom: -9%; animation-delay: -2s; }
+#bty .b-stage.is-3d .b-orb { opacity: 0; pointer-events: none; }
+#bty .b-hint { position: absolute; left: 0; right: 0; bottom: -6px; text-align: center; font-size: .8rem; color: var(--ink-soft); }
+@keyframes b-float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-14px); } }
+/* Hero intro: the one orchestrated moment */
+#bty.b-js .b-hero .b-in1 { opacity: 0; transform: translateY(26px); animation: b-rise 1.1s var(--ease) forwards; }
+#bty.b-js .b-hero .b-in2 { animation-delay: .18s; } #bty.b-js .b-hero .b-in3 { animation-delay: .34s; } #bty.b-js .b-hero .b-in4 { animation-delay: .5s; }
+#bty.b-js .b-hero .b-stage { opacity: 0; animation: b-fade 1.6s var(--ease) .3s forwards; }
+@keyframes b-rise { to { opacity: 1; transform: none; } } @keyframes b-fade { to { opacity: 1; } }
+
+/* Scroll reveal (kept subtle) -------------------------------------------- */
+#bty.b-js .b-rv { opacity: 0; transform: translateY(22px); transition: opacity .9s var(--ease), transform .9s var(--ease); transition-delay: calc(var(--i, 0) * 60ms); }
+#bty.b-js .b-rv.b-in { opacity: 1; transform: none; }
+
+/* Tabs shared ------------------------------------------------------------- */
+#bty .b-tab-n { font-family: var(--serif); font-size: 1.05rem; opacity: .6; min-width: 1.6rem; }
+#bty .b-tab-t { font-weight: 500; }
+#bty .b-swap { animation: b-swap .55s var(--ease); }
+@keyframes b-swap { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+
+/* Journey ----------------------------------------------------------------- */
+#bty .b-journey { display: grid; grid-template-columns: minmax(220px, .34fr) minmax(0, 1fr); gap: clamp(24px, 5vw, 72px); align-items: start; }
+#bty .b-jtabs { position: relative; display: flex; flex-direction: column; gap: 2px; padding-left: 24px; --jp: 0; }
+#bty .b-jtabs::before, #bty .b-jtabs::after { content: ''; position: absolute; left: 0; top: 18px; bottom: 18px; width: 1px; background: var(--ink-line); }
+#bty .b-jtabs::after { background: var(--esp); transform-origin: top; transform: scaleY(var(--jp)); transition: transform .7s var(--ease); }
+#bty .b-jtabs [role="tab"] { position: relative; display: flex; align-items: baseline; gap: .9rem; padding: .85rem .6rem; border-radius: 12px; opacity: .55; transition: opacity .3s, background .3s; }
+#bty .b-jtabs [role="tab"]:hover { opacity: .9; }
+#bty .b-jtabs [role="tab"]::before { content: ''; position: absolute; left: -28px; top: 50%; width: 9px; height: 9px; margin-top: -4.5px; border-radius: 50%; background: var(--warm); border: 1px solid var(--esp); transition: background .3s, transform .3s var(--ease); z-index: 1; }
+#bty .b-jtabs [role="tab"].is-active { opacity: 1; }
+#bty .b-jtabs [role="tab"].is-active::before { background: var(--esp); transform: scale(1.35); }
+#bty .b-jpanel { background: var(--stone); border-radius: 28px; padding: clamp(26px, 4vw, 56px); min-height: 430px; }
+#bty .b-jpanel .b-jk { font-size: .95rem; font-weight: 500; color: var(--ink-soft); margin-bottom: .8rem; }
+#bty .b-jpanel p.b-jl { margin-top: 1.2rem; max-width: 36rem; color: var(--ink-soft); font-size: 1.05rem; }
+#bty .b-jcols { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; margin-top: 2.2rem; padding-top: 2rem; border-top: 1px solid var(--ink-line); }
+#bty .b-jcols h4 { margin-bottom: .8rem; }
+#bty .b-jcols li { position: relative; padding-left: 1.1rem; margin-bottom: .65rem; font-size: .94rem; line-height: 1.55; }
+#bty .b-jcols li::before { content: ''; position: absolute; left: 0; top: .62em; width: 5px; height: 5px; border-radius: 50%; background: var(--sage); }
+
+/* Automation lab ---------------------------------------------------------- */
+#bty .b-lab-h3 { margin-bottom: .6rem; }
+#bty .b-lab-p { color: var(--warm-soft); max-width: 36rem; margin-bottom: 2rem; }
+#bty .b-explorer { display: grid; grid-template-columns: minmax(210px, .3fr) minmax(0, 1fr); gap: 24px; margin-bottom: clamp(64px, 9vw, 120px); }
+#bty .b-extabs { display: flex; flex-direction: column; gap: 6px; }
+#bty .b-extabs [role="tab"] { display: flex; align-items: center; gap: .9rem; padding: .95rem 1.1rem; border-radius: 16px; border: 1px solid var(--warm-line); transition: background .3s, border-color .3s, color .3s; font-weight: 500; }
+#bty .b-extabs [role="tab"]:hover { background: rgba(248, 246, 241, .06); }
+#bty .b-extabs [role="tab"].is-active { background: var(--warm); color: var(--esp); border-color: var(--warm); }
+#bty .b-sw { width: 12px; height: 12px; border-radius: 4px; flex: none; }
+#bty .b-sw--trigger { background: var(--sage); } #bty .b-sw--action { background: var(--esp-2); border: 1px solid rgba(248, 246, 241, .5); }
+#bty .b-sw--condition { border: 1.5px dashed var(--sage); } #bty .b-sw--api { background: var(--stone); border: 1px solid var(--esp); }
+#bty .b-sw--webhook { background: var(--esp-2); border: 2px solid var(--sage); } #bty .b-sw--ai { background: var(--warm); box-shadow: 0 0 0 2px var(--sage); }
+#bty .b-excard { border: 1px solid var(--warm-line); border-radius: 26px; padding: clamp(24px, 3.4vw, 44px); background: rgba(248, 246, 241, .04); }
+#bty .b-excard .b-ek { display: inline-flex; align-items: center; gap: .6rem; font-size: .9rem; font-weight: 600; color: var(--sage); margin-bottom: 1rem; }
+#bty .b-excard p.b-er { margin-top: 1.1rem; color: var(--warm-soft); max-width: 40rem; }
+#bty .b-excard dl { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px 32px; margin-top: 1.8rem; padding-top: 1.6rem; border-top: 1px solid var(--warm-line); }
+#bty .b-excard dt { font-size: .82rem; font-weight: 600; color: var(--sage); margin-bottom: .3rem; }
+#bty .b-excard dd { font-size: .93rem; color: var(--warm-soft); line-height: 1.6; }
+#bty .b-excard .b-btn { margin-top: 1.8rem; }
+
+#bty .b-wf-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 18px; }
+#bty .b-wftabs { display: flex; flex-wrap: wrap; gap: 8px; }
+#bty .b-wftabs [role="tab"] { padding: .6rem 1.15rem; border-radius: 999px; border: 1px solid var(--warm-line); font-size: .88rem; font-weight: 500; transition: background .3s, color .3s; }
+#bty .b-wftabs [role="tab"].is-active { background: var(--warm); color: var(--esp); border-color: var(--warm); }
+#bty .b-wfbox { border: 1px solid var(--warm-line); border-radius: 26px; background: rgba(248, 246, 241, .035); overflow: hidden; }
+#bty .b-wf-scroll { overflow-x: auto; padding: 14px 10px 6px; }
+#bty .b-wf-scroll svg { width: 100%; min-width: 1000px; height: auto; color: rgba(248, 246, 241, .42); }
+#bty .b-wf-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; padding: 14px 18px 18px; border-top: 1px solid var(--warm-line); }
+#bty .b-seg { display: inline-flex; border: 1px solid var(--warm-line); border-radius: 999px; padding: 3px; }
+#bty .b-seg button { padding: .5rem 1rem; border-radius: 999px; font-size: .84rem; font-weight: 500; }
+#bty .b-seg button[aria-pressed="true"] { background: var(--sage); color: var(--esp); }
+#bty .b-wf-bar .b-grow { flex: 1; }
+#bty .b-hlchip { display: inline-flex; align-items: center; gap: .5rem; font-size: .84rem; color: var(--sage); }
+#bty .b-hlchip button { text-decoration: underline; text-underline-offset: 3px; }
+#bty .b-wf-info { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; margin-top: 24px; }
+#bty .b-wf-info > div { border: 1px solid var(--warm-line); border-radius: 22px; padding: 24px; min-height: 200px; }
+#bty .b-wf-info h4 { color: var(--sage); margin-bottom: .8rem; }
+#bty .b-wf-info p { font-size: .95rem; color: var(--warm-soft); margin-bottom: .8rem; }
+#bty .b-wf-info h5 { font: 400 1.35rem/1.2 var(--serif); margin: 0 0 .6rem; color: var(--warm); }
+#bty .b-wflog li { font-size: .88rem; color: var(--warm-soft); padding: .55rem 0; border-bottom: 1px solid var(--warm-line); animation: b-swap .4s var(--ease); }
+#bty .b-wflog li b { color: var(--sage); font-weight: 600; margin-right: .35rem; }
+#bty .b-wflog li:last-child { border-bottom: 0; }
+
+#bty .b-e { fill: none; stroke: rgba(248, 246, 241, .28); stroke-width: 1.6; marker-end: url(#b-arr); transition: stroke .4s; }
+#bty .b-e.on { stroke: var(--sage); stroke-width: 2.6; marker-end: url(#b-arrOn); }
+#bty .b-el { font: 600 12px var(--sans); fill: var(--sage); paint-order: stroke; stroke: var(--esp); stroke-width: 5px; }
+#bty .b-n { cursor: pointer; outline: none; transition: opacity .4s; }
+#bty .b-n rect { transition: stroke .25s, stroke-width .25s, filter .3s; }
+#bty .b-nt { font: 600 11px var(--sans); }
+#bty .b-nl { font: 600 14px var(--sans); }
+#bty .b-ns { font: 400 10.5px var(--sans); opacity: .78; }
+#bty .b-n text { fill: var(--warm); }
+#bty .b-n--trigger rect { fill: var(--sage); } #bty .b-n--trigger text { fill: var(--esp); }
+#bty .b-n--action rect { fill: var(--esp-2); stroke: rgba(248, 246, 241, .22); }
+#bty .b-n--condition rect { fill: transparent; stroke: var(--sage); stroke-dasharray: 6 4; stroke-width: 1.5; }
+#bty .b-n--api rect { fill: var(--stone); } #bty .b-n--api text { fill: var(--esp); }
+#bty .b-n--webhook rect { fill: var(--esp-2); stroke: var(--sage); stroke-width: 2; }
+#bty .b-n--ai rect { fill: var(--warm); stroke: var(--sage); stroke-width: 3; } #bty .b-n--ai text { fill: var(--esp); }
+#bty .b-n:hover rect, #bty .b-n:focus-visible rect, #bty .b-n.is-sel rect { stroke: var(--warm); stroke-width: 2.4; stroke-dasharray: none; }
+#bty .b-n.is-run rect { filter: drop-shadow(0 0 14px rgba(163, 173, 150, .95)); stroke: var(--sage); stroke-width: 3; animation: b-pulse 1s ease-in-out infinite; }
+#bty .b-n.is-done rect { filter: drop-shadow(0 0 6px rgba(163, 173, 150, .5)); }
+#bty .b-n.is-dim { opacity: .22; }
+@keyframes b-pulse { 50% { stroke-width: 5; } }
+
+/* Toolkit ----------------------------------------------------------------- */
+#bty .b-tools { display: grid; grid-template-columns: repeat(auto-fill, minmax(212px, 1fr)); gap: 20px; }
+#bty .b-tool-btn { display: block; width: 100%; perspective: 1000px; --rx: 0deg; --ry: 0deg; --fl: 0deg; --gx: 50%; --gy: 30%; }
+#bty .b-tool-in { position: relative; display: block; min-height: 316px; transform-style: preserve-3d; transform: rotateX(var(--rx)) rotateY(calc(var(--ry) + var(--fl))); transition: transform .6s var(--ease); }
+#bty .b-tool-btn.is-flipped { --fl: 180deg; }
+#bty .b-face { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: space-between; padding: 24px; border-radius: 22px; backface-visibility: hidden; -webkit-backface-visibility: hidden; overflow: hidden; }
+#bty .b-front { background: linear-gradient(160deg, var(--stone), #d9d2c6); box-shadow: 0 1px 0 rgba(255, 255, 255, .6) inset, 0 28px 40px -26px rgba(48, 39, 31, .5); }
+#bty .b-front::after { content: ''; position: absolute; inset: 0; background: radial-gradient(circle at var(--gx) var(--gy), rgba(255, 255, 255, .55), transparent 55%); pointer-events: none; opacity: 0; transition: opacity .3s; }
+#bty .b-tool-btn:hover .b-front::after { opacity: 1; }
+#bty .b-orbd { position: relative; width: 74px; height: 74px; border-radius: 50%; background: radial-gradient(circle at 30% 26%, #fff, var(--sage) 62%, #7f8a73 100%); box-shadow: inset -6px -8px 14px rgba(48, 39, 31, .25), 0 18px 22px -10px rgba(48, 39, 31, .5); transform: translateZ(46px); }
+#bty .b-orbd::after { content: ''; position: absolute; inset: -9px; border-radius: 50%; border: 1px solid rgba(48, 39, 31, .35); transform: rotateX(70deg); }
+#bty .b-tname { font-family: var(--serif); font-size: 1.7rem; line-height: 1.1; letter-spacing: -.02em; transform: translateZ(26px); }
+#bty .b-tmeta { display: flex; align-items: center; justify-content: space-between; gap: 8px; transform: translateZ(14px); }
+#bty .b-st { font-size: .8rem; font-weight: 600; color: var(--ink-soft); }
+#bty .b-back { background: var(--esp); color: var(--warm); transform: rotateY(180deg); justify-content: flex-start; gap: .35rem; }
+#bty .b-tq { font-size: .78rem; font-weight: 600; color: var(--sage); margin-top: .5rem; }
+#bty .b-tp { font-size: .86rem; line-height: 1.55; color: var(--warm-soft); }
+#bty .b-tools-hint { margin-top: 1.4rem; font-size: .88rem; color: var(--ink-soft); }
+
+/* Projects ---------------------------------------------------------------- */
+#bty .b-projects { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(20px, 3vw, 36px); }
+#bty .b-proj { display: flex; flex-direction: column; background: var(--warm); border-radius: 28px; overflow: hidden; box-shadow: 0 1px 0 rgba(255, 255, 255, .7) inset, 0 40px 60px -44px rgba(48, 39, 31, .55); }
+#bty .b-shot { position: relative; aspect-ratio: 16 / 10; background: var(--stone); overflow: hidden; }
+#bty .b-shot img { width: 100%; height: 100%; object-fit: cover; }
+#bty .b-ph { position: absolute; inset: 14px; border: 1.5px dashed rgba(48, 39, 31, .3); border-radius: 18px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .3rem; text-align: center; padding: 1rem; font-weight: 500; }
+#bty .b-ph small { font-size: .78rem; color: var(--ink-soft); font-weight: 400; }
+#bty .b-shot .b-badge { position: absolute; left: 18px; top: 18px; background: var(--warm); }
+#bty .b-pbody { padding: clamp(22px, 3vw, 36px); display: flex; flex-direction: column; flex: 1; }
+#bty .b-pkind { font-size: .88rem; font-weight: 600; color: var(--ink-soft); margin-bottom: .5rem; }
+#bty .b-pbody > p { margin-top: .9rem; color: var(--ink-soft); font-size: .98rem; }
+#bty .b-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 1.2rem; }
+#bty .b-pdl { display: grid; gap: 14px; margin-top: 1.4rem; padding-top: 1.3rem; border-top: 1px solid var(--ink-line); }
+#bty .b-pdl dt { font-size: .82rem; font-weight: 600; margin-bottom: .15rem; }
+#bty .b-pdl dd { font-size: .92rem; color: var(--ink-soft); line-height: 1.55; }
+#bty .b-pdl dd.is-ph { font-style: italic; }
+#bty .b-pact { display: flex; flex-wrap: wrap; gap: 10px; margin-top: auto; padding-top: 1.6rem; }
+
+/* How I think ------------------------------------------------------------- */
+#bty .b-method { display: grid; grid-template-columns: minmax(240px, .38fr) minmax(0, 1fr); gap: clamp(24px, 5vw, 72px); align-items: start; }
+#bty .b-mtabs { display: flex; flex-direction: column; border-top: 1px solid var(--ink-line); }
+#bty .b-mtabs [role="tab"] { display: flex; align-items: baseline; gap: 1rem; padding: 1.05rem .3rem; border-bottom: 1px solid var(--ink-line); opacity: .5; transition: opacity .3s, padding .4s var(--ease); font-size: 1.05rem; }
+#bty .b-mtabs [role="tab"]:hover { opacity: .85; }
+#bty .b-mtabs [role="tab"].is-active { opacity: 1; padding-left: 1rem; }
+#bty .b-mpanel { display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: clamp(20px, 3vw, 44px); align-items: start; }
+#bty .b-ring { position: relative; width: 120px; height: 120px; }
+#bty .b-ring svg { width: 100%; height: 100%; transform: rotate(-90deg); }
+#bty .b-ring circle { fill: none; stroke-width: 2; }
+#bty .b-ring .bg { stroke: var(--ink-line); }
+#bty .b-ring .fg { stroke: var(--esp); stroke-dasharray: 326.7; stroke-linecap: round; transition: stroke-dashoffset .8s var(--ease); }
+#bty .b-ring span { position: absolute; inset: 0; display: grid; place-items: center; font-family: var(--serif); font-size: 2rem; font-weight: 300; }
+#bty .b-q { margin-top: 1rem; font-family: var(--serif); font-style: italic; font-size: clamp(1.2rem, 2vw, 1.6rem); line-height: 1.3; color: var(--ink-soft); }
+#bty .b-mpanel ul { margin-top: 1.6rem; max-width: 36rem; }
+#bty .b-mpanel li { position: relative; padding: .7rem 0 .7rem 1.4rem; border-top: 1px solid var(--ink-line); }
+#bty .b-mpanel li::before { content: ''; position: absolute; left: 0; top: 1.3rem; width: 6px; height: 6px; border-radius: 50%; background: var(--sage); }
+#bty .b-mnav { margin-top: 1.6rem; display: flex; gap: 10px; }
+
+/* Currently exploring ----------------------------------------------------- */
+#bty .b-marq { overflow: hidden; margin: 0 0 clamp(36px, 5vw, 64px); -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); }
+#bty .b-marq-track { display: flex; width: max-content; animation: b-marq 60s linear infinite; }
+#bty .b-marq-track span { font-family: var(--serif); font-size: clamp(1.8rem, 4vw, 3.2rem); font-weight: 300; font-style: italic; padding-right: 2.2rem; white-space: nowrap; }
+#bty .b-marq-track span::after { content: '/'; padding-left: 2.2rem; opacity: .4; font-style: normal; }
+#bty .b-marq:hover .b-marq-track { animation-play-state: paused; }
+@keyframes b-marq { to { transform: translateX(-50%); } }
+#bty .b-filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 26px; }
+#bty .b-filters button { padding: .55rem 1.1rem; border: 1px solid rgba(48, 39, 31, .35); border-radius: 999px; font-size: .88rem; font-weight: 500; transition: background .3s, color .3s; }
+#bty .b-filters button[aria-pressed="true"] { background: var(--esp); color: var(--warm); border-color: var(--esp); }
+#bty .b-exgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(262px, 1fr)); gap: 18px; }
+#bty .b-ex { background: rgba(248, 246, 241, .55); border-radius: 22px; padding: 26px; display: flex; flex-direction: column; gap: .7rem; }
+#bty .b-exgrid.b-anim .b-ex { animation: b-swap .6s var(--ease) both; animation-delay: calc(var(--i, 0) * 55ms); }
+#bty .b-ex .b-chip { align-self: flex-start; background: rgba(48, 39, 31, .12); }
+#bty .b-ex p { font-size: .93rem; color: rgba(48, 39, 31, .86); line-height: 1.55; }
+#bty .b-ex p.b-next { margin-top: auto; padding-top: .8rem; border-top: 1px solid rgba(48, 39, 31, .2); }
+
+/* Contact ----------------------------------------------------------------- */
+#bty .b-contact { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); gap: clamp(32px, 6vw, 96px); align-items: start; }
+#bty .b-contact h2 { font-size: clamp(2.6rem, 6vw, 5.2rem); line-height: 1; }
+#bty .b-clinks { margin-top: 2.6rem; border-top: 1px solid var(--warm-line); }
+#bty .b-clink { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 1.25rem .2rem; border-bottom: 1px solid var(--warm-line); transition: padding .4s var(--ease), color .3s; }
+#bty .b-clink:hover { padding-left: .9rem; color: var(--sage); }
+#bty .b-clink span:first-child { font-family: var(--serif); font-size: 1.5rem; }
+#bty .b-clink span:last-child { font-size: .88rem; color: var(--warm-soft); overflow-wrap: anywhere; text-align: right; }
+#bty .b-clink.is-placeholder span:last-child { font-style: italic; }
+#bty .b-copy { margin-top: 1.4rem; }
+#bty .b-form { border: 1px solid var(--warm-line); border-radius: 26px; padding: clamp(22px, 3vw, 36px); background: rgba(248, 246, 241, .04); }
+#bty .b-form h3 { margin-bottom: 1.4rem; }
+#bty .b-field { display: block; margin-bottom: 1.1rem; }
+#bty .b-field span { display: block; font-size: .84rem; font-weight: 600; margin-bottom: .4rem; }
+#bty .b-field input, #bty .b-field textarea { width: 100%; font: inherit; color: var(--warm); background: rgba(248, 246, 241, .06); border: 1px solid var(--warm-line); border-radius: 14px; padding: .85rem 1rem; transition: border-color .3s, background .3s; }
+#bty .b-field input:focus, #bty .b-field textarea:focus { outline: none; border-color: var(--sage); background: rgba(248, 246, 241, .1); }
+#bty .b-field textarea { min-height: 130px; resize: vertical; }
+#bty .b-status { min-height: 1.5rem; margin-top: .9rem; font-size: .9rem; color: var(--sage); }
+#bty .b-foot { position: relative; z-index: 1; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; margin-top: clamp(64px, 9vw, 120px); padding-top: 1.6rem; border-top: 1px solid var(--warm-line); font-size: .86rem; color: var(--warm-soft); }
+#bty .b-foot button { text-decoration: underline; text-underline-offset: 3px; }
+#bty .b-toast { position: fixed; left: 50%; bottom: 24px; z-index: 9999; max-width: min(92vw, 440px); transform: translate(-50%, 24px); opacity: 0; pointer-events: none; background: var(--esp); color: var(--warm); border: 1px solid var(--warm-line); padding: .85rem 1.3rem; border-radius: 999px; font-size: .9rem; box-shadow: 0 20px 40px -16px rgba(0, 0, 0, .5); transition: opacity .35s, transform .35s var(--ease); }
+#bty .b-toast.is-on { opacity: 1; transform: translate(-50%, 0); }
+#bty .b-nojs { padding: 120px 24px 24px; text-align: center; }
+
+/* Responsive -------------------------------------------------------------- */
+@media (max-width: 1020px) {
+  #bty .b-menu { display: block; }
+  #bty .b-links { position: fixed; inset: 68px 0 auto 0; flex-direction: column; align-items: stretch; gap: 0; padding: 12px 24px 28px; background: var(--warm); border-bottom: 1px solid var(--ink-line); opacity: 0; visibility: hidden; transform: translateY(-8px); transition: opacity .3s, transform .3s var(--ease), visibility .3s; }
+  #bty .b-links.is-open { opacity: 1; visibility: visible; transform: none; }
+  #bty .b-links a:not(.b-btn) { padding: 1rem .2rem; font-size: 1.05rem; border-bottom: 1px solid var(--ink-line); opacity: 1; }
+  #bty .b-links a.is-active::after { display: none; }
+  #bty .b-links .b-btn { margin: 1.1rem 0 0; }
+  #bty .b-hero-grid { grid-template-columns: 1fr; }
+  #bty .b-stage { max-width: 520px; }
+  #bty .b-wf-info { grid-template-columns: 1fr; }
+}
+@media (max-width: 860px) {
+  #bty .b-journey, #bty .b-method, #bty .b-explorer, #bty .b-contact { grid-template-columns: 1fr; }
+  #bty .b-jtabs, #bty .b-extabs { flex-direction: row; overflow-x: auto; padding: 0 0 8px; gap: 8px; }
+  #bty .b-jtabs::before, #bty .b-jtabs::after, #bty .b-jtabs [role="tab"]::before { display: none; }
+  #bty .b-jtabs [role="tab"], #bty .b-extabs [role="tab"] { flex: none; border: 1px solid var(--ink-line); border-radius: 999px; padding: .6rem 1rem; }
+  #bty .b-extabs [role="tab"] { border-color: var(--warm-line); }
+  #bty .b-jtabs [role="tab"].is-active { background: var(--esp); color: var(--warm); }
+  #bty .b-jcols { grid-template-columns: 1fr; gap: 20px; }
+  #bty .b-projects { grid-template-columns: 1fr; }
+  #bty .b-mpanel { grid-template-columns: 1fr; }
+  #bty .b-excard dl { grid-template-columns: 1fr; }
+}
+@media (max-width: 520px) {
+  #bty .b-tools { grid-template-columns: 1fr 1fr; gap: 12px; }
+  #bty .b-tool-in { min-height: 360px; }
+  #bty .b-face { padding: 16px; }
+  #bty .b-tname { font-size: 1.35rem; }
+  #bty .b-tp { font-size: .8rem; }
+  #bty .b-cta .b-btn { flex: 1 1 100%; }
+}
+@media (max-width: 380px) { #bty .b-tools { grid-template-columns: 1fr; } }
+
+/* Reduced motion ---------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  #bty *, #bty *::before, #bty *::after { animation: none !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
+  #bty.b-js .b-rv, #bty.b-js .b-hero .b-in1, #bty.b-js .b-hero .b-stage { opacity: 1; transform: none; }
+  #bty .b-stage { transform: none; }
+  #bty .b-marq { overflow-x: auto; }
+}
+</style>
+<div id="bty" class="bty" lang="en">
+  <a class="b-skip" href="#b-main">Skip to content</a>
+  <div class="b-progress" aria-hidden="true"><span></span></div>
+
+  <header class="b-nav" id="b-nav">
+    <div class="b-nav-in">
+      <a class="b-brand" href="#top" aria-label="Beyond the Code, back to top"><span class="b-dot" aria-hidden="true"></span><span>Beyond the Code</span></a>
+      <button class="b-menu" type="button" aria-expanded="false" aria-controls="b-links" aria-label="Open menu"><span></span><span></span></button>
+      <nav id="b-links" class="b-links" aria-label="Primary">
+        <a href="#journey">Journey</a>
+        <a href="#lab">Automation Lab</a>
+        <a href="#toolkit">Toolkit</a>
+        <a href="#projects">Projects</a>
+        <a href="#approach">How I think</a>
+        <a href="#exploring">Exploring</a>
+        <a class="b-btn b-btn--sm" href="#contact">Let's connect</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="b-main">
+
+    <!-- 1 · HERO ------------------------------------------------------------>
+    <section id="top" class="b-hero b-grain" aria-labelledby="hero-title">
+      <div class="b-wrap b-hero-grid">
+        <div>
+          <p class="b-hero-kicker b-in1">Beyond the Code: the journey of an aspiring developer</p>
+          <h1 id="hero-title" class="b-in1 b-in2"><span>I Build Intelligent Systems,</span> <span>Not Just Websites.</span></h1>
+          <p class="b-hero-intro b-in1 b-in3">I'm <span data-cfg="name">Your Name</span>. I'm learning to connect AI, automation and design: n8n, GoHighLevel, Make, Zapier, APIs and custom websites. This site holds my practice workflows, experiments and assignments, shown as they are.</p>
+          <div class="b-cta b-in1 b-in4">
+            <a class="b-btn" href="#projects">Explore my work</a>
+            <a class="b-btn b-btn--ghost" href="#contact">Let's connect</a>
+          </div>
+          <p class="b-hero-note b-in1 b-in4">Not just a portfolio. A reflection of my journey as a developer.</p>
+        </div>
+        <div class="b-stage" id="stage" aria-hidden="true">
+          <div class="b-orb"><div class="b-orb-body"></div><i></i><i></i><i></i><i></i></div>
+          <p class="b-hint">Move your pointer. The sculpture follows.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2 · MY JOURNEY ------------------------------------------------------>
+    <section id="journey" class="b-sec" aria-labelledby="journey-h">
+      <div class="b-decor" data-depth="-0.08" style="width:420px;height:420px;right:-120px;top:10%;background:radial-gradient(circle at 35% 30%,var(--stone),transparent 70%)"></div>
+      <div class="b-wrap">
+        <header class="b-sh b-rv">
+          <h2 id="journey-h">A learning path, told honestly.</h2>
+          <p class="b-lede">No borrowed job titles or credentials. This is the real order in which I've been learning and building. Choose a stage to see what I learned, what I built, and what I'm still exploring.</p>
+        </header>
+        <div class="b-journey b-rv">
+          <div class="b-jtabs" id="jtabs" role="tablist" aria-label="Journey stages" aria-orientation="vertical"></div>
+          <div class="b-jpanel" id="jpanel" role="tabpanel" tabindex="0" aria-live="polite"></div>
+        </div>
+        <noscript><p class="b-nojs">This section needs JavaScript to be interactive.</p></noscript>
+      </div>
+    </section>
+
+    <!-- 3 · AUTOMATION LAB (signature) ------------------------------------->
+    <section id="lab" class="b-sec b-dark b-grain" aria-labelledby="lab-h">
+      <div class="b-decor" data-depth="0.06" style="width:560px;height:560px;left:-200px;top:8%;background:radial-gradient(circle at 40% 40%,rgba(163,173,150,.22),transparent 70%)"></div>
+      <div class="b-wrap">
+        <header class="b-sh b-rv">
+          <h2 id="lab-h">The Automation Lab</h2>
+          <p class="b-lede">My favourite place to work: taking a messy real-world process and turning it into triggers, actions and decisions. Everything here is a demonstration built for learning, and each piece is explained in plain English.</p>
+        </header>
+
+        <div class="b-rv">
+          <h3 class="b-lab-h3">Workflow explorer</h3>
+          <p class="b-lab-p">Every automation is built from a few kinds of building block. Pick one to see what it does.</p>
+        </div>
+        <div class="b-explorer b-rv" id="explorer">
+          <div class="b-extabs" id="extabs" role="tablist" aria-label="Automation building blocks" aria-orientation="vertical"></div>
+          <div class="b-excard" id="expanel" role="tabpanel" tabindex="0" aria-live="polite"></div>
+        </div>
+
+        <div class="b-rv" id="lab-diagram">
+          <h3 class="b-lab-h3">Three illustrative workflows</h3>
+          <p class="b-lab-p">Select a step to read what it does, or run the demonstration to watch sample data move through.</p>
+          <div class="b-wf-head">
+            <div class="b-wftabs" id="wftabs" role="tablist" aria-label="Demonstration workflows"></div>
+            <p class="b-badge">Illustrative demonstration, not a deployed production system</p>
+          </div>
+          <div class="b-wfbox">
+            <div class="b-wf-scroll" tabindex="0" role="region" aria-label="Workflow diagram (scrolls sideways on small screens)">
+              <svg id="wfsvg" viewBox="0 0 10 10" role="group" aria-label="Workflow diagram"></svg>
+            </div>
+            <div class="b-wf-bar">
+              <div class="b-seg" id="wfseg" role="group" aria-label="Choose a scenario to run"></div>
+              <button class="b-btn b-btn--sm" type="button" id="wfrun">Run demonstration</button>
+              <button class="b-btn b-btn--sm b-btn--ghost" type="button" id="wfreset">Reset</button>
+              <span class="b-grow"></span>
+              <span class="b-hlchip" id="wfhl" hidden></span>
+            </div>
+          </div>
+          <div class="b-wf-info" id="wfpanel" role="tabpanel">
+            <div><h4>In plain English</h4><h5 id="wftitle"></h5><div id="wfplain"></div></div>
+            <div><h4>Selected step</h4><div id="wfnode" aria-live="polite"></div></div>
+            <div><h4>Run log (sample data)</h4><ol class="b-wflog" id="wflog" aria-live="polite"></ol></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4 · MY TOOLKIT ------------------------------------------------------>
+    <section id="toolkit" class="b-sec" aria-labelledby="tool-h">
+      <div class="b-wrap">
+        <header class="b-sh b-rv">
+          <h2 id="tool-h">The tools I'm learning to think with.</h2>
+          <p class="b-lede">Each card flips to show what the tool is and how I use it today. The status on each is a plain description of where I am: practising, building or exploring.</p>
+        </header>
+        <div class="b-tools" id="tools"></div>
+        <p class="b-tools-hint">Tip: hover to tilt, then press or tap a card to flip it.</p>
+      </div>
+    </section>
+
+    <!-- 5 · SELECTED PROJECTS ---------------------------------------------->
+    <section id="projects" class="b-sec b-stone b-grain" aria-labelledby="proj-h">
+      <div class="b-wrap">
+        <header class="b-sh b-rv">
+          <h2 id="proj-h">Selected projects.</h2>
+          <p class="b-lede">Personal projects, practice workflows and experiments. Each card has room for a real screenshot, workflow export, the technologies used, and an honest account of the challenge and outcome.</p>
+        </header>
+        <div class="b-projects" id="projects-grid"></div>
+      </div>
+    </section>
+
+    <!-- 6 · HOW I THINK ---------------------------------------------------->
+    <section id="approach" class="b-sec" aria-labelledby="think-h">
+      <div class="b-wrap">
+        <header class="b-sh b-rv">
+          <h2 id="think-h">How I think.</h2>
+          <p class="b-lede">Whatever the tool, I work through the same loop. Step through it below.</p>
+        </header>
+        <div class="b-method b-rv">
+          <div class="b-mtabs" id="mtabs" role="tablist" aria-label="Problem-solving steps" aria-orientation="vertical"></div>
+          <div class="b-mpanel" id="mpanel" role="tabpanel" tabindex="0" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7 · CURRENTLY EXPLORING -------------------------------------------->
+    <section id="exploring" class="b-sec b-sage b-grain" aria-labelledby="exp-h">
+      <div class="b-wrap">
+        <header class="b-sh b-rv">
+          <h2 id="exp-h">Currently exploring.</h2>
+          <p class="b-lede">What I'm learning next, and why it matters. Filter by theme.</p>
+        </header>
+      </div>
+      <div class="b-marq" aria-hidden="true"><div class="b-marq-track" id="marq"></div></div>
+      <div class="b-wrap">
+        <div class="b-filters" id="exfilters" role="group" aria-label="Filter topics"></div>
+        <div class="b-exgrid" id="exgrid"></div>
+      </div>
+    </section>
+
+    <!-- 8 · CONTACT -------------------------------------------------------->
+    <section id="contact" class="b-sec b-dark b-grain" aria-labelledby="contact-h">
+      <div class="b-decor" data-depth="-0.07" style="width:480px;height:480px;right:-140px;bottom:-60px;background:radial-gradient(circle at 40% 40%,rgba(163,173,150,.25),transparent 70%)"></div>
+      <div class="b-wrap">
+        <div class="b-contact">
+          <div class="b-rv">
+            <h2 id="contact-h">Let's build something intelligent.</h2>
+            <p class="b-lede">If you have a process worth improving, a project to collaborate on, or advice for someone growing in this field, I'd like to hear from you.</p>
+            <div class="b-clinks">
+              <a class="b-clink" data-link="email" href="#contact"><span>Email</span><span data-link-text="email"></span></a>
+              <a class="b-clink" data-link="github" href="#contact"><span>GitHub</span><span data-link-text="github"></span></a>
+              <a class="b-clink" data-link="linkedin" href="#contact"><span>LinkedIn</span><span data-link-text="linkedin"></span></a>
+            </div>
+            <button class="b-btn b-btn--ghost b-copy" type="button" id="copyemail">Copy email address</button>
+          </div>
+          <!-- In GoHighLevel you can replace this form with a native GHL form element (see GHL-GUIDE.md). -->
+          <form class="b-form b-rv" id="cform" novalidate aria-labelledby="form-h">
+            <h3 id="form-h">Send a message</h3>
+            <label class="b-field"><span>Your name</span><input type="text" name="fname" autocomplete="name" required></label>
+            <label class="b-field"><span>Your email</span><input type="email" name="femail" autocomplete="email" required></label>
+            <label class="b-field"><span>Message</span><textarea name="fmsg" required></textarea></label>
+            <button class="b-btn" type="submit">Open in my email app</button>
+            <p class="b-status" id="cstatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+        <div class="b-foot">
+          <span>&copy; <span id="year"></span> <span data-cfg="name">Your Name</span>. Built by hand with HTML, CSS and JavaScript.</span>
+          <button type="button" id="totop">Back to top</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div class="b-toast" id="toast" role="status" aria-live="polite"></div>
+</div>
+<script>
+/* ==========================================================================
+   Beyond the Code — app.js
+   Plain JavaScript, no build step, no module imports. Safe for a GoHighLevel
+   Custom Code element. Three.js is loaded on demand and is optional: if it
+   cannot load, the CSS orb stays and everything else keeps working.
+
+   Edit CONFIG and DATA below. Nothing else needs to change.
+   Modules (each wrapped in safe() so one failure never breaks the page):
+     Stage 1 foundation : links, nav, scroll, reveal
+     Stage 2 content    : journey, toolkit, projects, method, exploring, contact
+     Stage 3 3D         : scene3d  (turn off with CONFIG.enable3D = false)
+     Stage 4 workflows  : workflow lab + explorer
+   ========================================================================== */
+(function () {
+  'use strict';
+
+  var root = document.getElementById('bty');
+  if (!root || root.getAttribute('data-ready')) return;
+  root.setAttribute('data-ready', '1');
+  root.classList.add('b-js');
+
+  /* ------------------------------------------------------------------------
+     CONFIG: replace the placeholders. Anything that still looks like a
+     placeholder shows a friendly notice instead of opening a dead link.
+     ------------------------------------------------------------------------ */
+  var CONFIG = {
+    name: 'Your Name',
+    email: 'hello@your-domain.com',
+    github: 'https://github.com/your-username',
+    linkedin: 'https://www.linkedin.com/in/your-profile',
+    enable3D: true,
+    three: 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js'
+  };
+
+  /* ------------------------------------------------------------------------
+     DATA: all copy lives here. Replace with your own story and projects.
+     Keep it factual. Do not add client names, metrics or testimonials you
+     cannot back up.
+     ------------------------------------------------------------------------ */
+  var DATA = {
+    journey: [
+      { t: 'Curiosity', k: 'Noticing the pattern',
+        lede: 'It started with a simple question: why am I doing this by hand again? Repeated tasks began to look like triggers, steps and outcomes.',
+        learned: ['Most routines can be described as "when this happens, do that"', 'How to break a messy task into small, testable steps'],
+        built: ['Written maps of tasks I wanted to automate'],
+        exploring: ['Which tool fits which kind of problem'] },
+      { t: 'First automations', k: 'n8n and the logic of nodes',
+        lede: 'n8n taught me to think visually: data enters, moves through nodes, and comes out changed.',
+        learned: ['Triggers, actions and how data flows between nodes', 'Branching with conditions', 'Reading execution logs to find what went wrong'],
+        built: ['Practice workflows that move data between apps'],
+        exploring: ['Error handling and retries'] },
+      { t: 'CRM and funnels', k: 'GoHighLevel',
+        lede: 'GoHighLevel showed me what automation looks like around real customer journeys: forms, pipelines and follow-up.',
+        learned: ['Contacts, pipelines and opportunities', 'Funnels, forms and workflow automations', 'Tags and custom values'],
+        built: ['Practice funnels and CRM workflows in test accounts'],
+        exploring: ['Connecting GoHighLevel to outside APIs and webhooks'] },
+      { t: 'Connecting tools', k: 'Make, Zapier, APIs and webhooks',
+        lede: 'The same logic can live in different tools. Comparing them taught me what is essential and what is just interface.',
+        learned: ['How APIs, authentication and webhooks let tools talk', 'Where Make, Zapier and n8n each feel natural'],
+        built: ['Practice scenarios and webhook experiments'],
+        exploring: ['Reliability: duplicates, rate limits and failures'] },
+      { t: 'Adding intelligence', k: 'AI agents and chatbots',
+        lede: 'Adding an AI step makes a workflow able to handle messy, human input, as long as it has guardrails.',
+        learned: ['What an AI agent is and where it needs limits', 'Writing instructions for classifying and drafting', 'Why a human-review step matters'],
+        built: ['Concept designs and small experiments for agent and chatbot flows'],
+        exploring: ['Tool use, memory and checking output quality'] },
+      { t: 'Designing the experience', k: 'Websites, vibe coding and visual design',
+        lede: 'A system is only as good as the experience around it, so I also learn to design and build the pages people actually see.',
+        learned: ['Turning ideas into responsive pages with AI-assisted coding, then reading and testing the result', 'Typography, spacing and motion as part of usability'],
+        built: ['Custom website practice builds and visual design pieces', 'This portfolio'],
+        exploring: ['3D on the web, performance and accessibility'] }
+    ],
+
+    types: {
+      trigger: { label: 'Trigger', headline: 'The moment everything starts.',
+        role: 'A trigger waits for something to happen, such as a form submission, a new message or a set time, and wakes the workflow up with the data from that event. No trigger, no automation.',
+        analogy: 'A doorbell. Nothing happens until someone presses it.',
+        tool: 'n8n: Form Trigger, Webhook, Schedule Trigger. GoHighLevel: workflow triggers such as Form Submitted or Contact Tagged.',
+        example: 'A visitor submits the contact form on a website.',
+        watch: 'Make sure it fires once, not twice, so nobody gets duplicate emails.' },
+      action: { label: 'Action', headline: 'The work that gets done.',
+        role: 'An action does one specific job: create a record, update a field, send a message or reshape data. Chains of small actions are easier to test than one giant step.',
+        analogy: 'A worker on an assembly line, each doing one task.',
+        tool: 'n8n: Edit Fields (Set), Google Sheets, Send Email. GoHighLevel: Send Email, Add Tag, Update Contact Field.',
+        example: 'Tidy a submitted name and send a welcome email.',
+        watch: 'Keep each action small and name it clearly so the flow reads like a sentence.' },
+      condition: { label: 'Condition', headline: 'A fork in the road.',
+        role: 'A condition looks at the data and chooses a path: if this is true go one way, otherwise go another. It is how an automation makes decisions instead of treating everyone the same.',
+        analogy: 'A traffic light.',
+        tool: 'n8n: IF and Switch nodes. GoHighLevel: If/Else conditions inside workflows.',
+        example: 'If the email address looks valid, create the contact. If not, flag it for review.',
+        watch: 'Always plan the "otherwise" path. Missing branches cause silent failures.' },
+      api: { label: 'API', headline: 'Asking another service to do something.',
+        role: 'An API call is a structured request sent over the internet to another service, to fetch data or make a change. It is usually JSON, with a key or token proving who is asking.',
+        analogy: 'Ordering from a menu through a waiter: you ask in a set format and get a predictable reply.',
+        tool: 'n8n: the HTTP Request node, or a built-in app node. GoHighLevel: its API and the Custom Webhook action.',
+        example: 'Create a contact in a CRM using its API.',
+        watch: 'Check authentication, rate limits and the response status, and never put secret keys in public code.' },
+      webhook: { label: 'Webhook', headline: 'A URL that listens.',
+        role: 'A webhook is an address that another system calls the instant something happens. The data is pushed to you instead of you asking again and again, so tools can start each other\'s workflows in real time.',
+        analogy: 'A mailbox that rings a bell when a letter arrives.',
+        tool: 'n8n: the Webhook node. GoHighLevel: the Inbound Webhook trigger and the Custom Webhook action.',
+        example: 'A chat tool posts each new message to a workflow as it arrives.',
+        watch: 'Anyone who finds the URL can call it, so use secret tokens or signature checks.' },
+      ai: { label: 'AI Agent', headline: 'A step that can reason.',
+        role: 'An AI agent reads unstructured text, decides what it means, and can draft replies or choose tools to use. It is powerful for messy input, but it needs clear instructions, guardrails and often a human check.',
+        analogy: 'A capable assistant whose work you still review.',
+        tool: 'n8n: the AI Agent node with a chat model, optional memory and tools.',
+        example: 'Read an enquiry, judge how urgent it is and draft a reply.',
+        watch: 'Treat AI output as a draft. Test with awkward inputs and keep a human step for anything sensitive.' }
+    },
+
+    workflows: [
+      { id: 'lead', tab: 'Lead capture', title: 'Form submission to CRM contact',
+        plain: ['When someone fills in the contact form, the automation tidies up what they typed and checks that the email looks real.',
+                'If it does, it creates a contact in the CRM and sends a follow-up. If it does not, the entry goes to a review sheet so I can look at it by hand.'],
+        nodes: [
+          { id: 'a1', type: 'trigger', label: 'Form submitted', sub: 'n8n Form Trigger', col: 0, row: 1, plain: 'The starting gun. As soon as the form is submitted, the workflow wakes up holding the visitor\'s answers.' },
+          { id: 'a2', type: 'action', label: 'Clean the data', sub: 'Edit Fields (Set node)', col: 1, row: 1, plain: 'Trims stray spaces, lower-cases the email and splits the full name into first and last, so later steps get tidy data.' },
+          { id: 'a3', type: 'condition', label: 'Email looks valid?', sub: 'IF node', col: 2, row: 1, plain: 'A quick check. If the email has the right shape the flow continues on the Yes path, otherwise it takes the No path.' },
+          { id: 'a4', type: 'api', label: 'Create CRM contact', sub: 'HTTP Request, CRM API', col: 3, row: 0, plain: 'Sends the cleaned details to the CRM\'s API so a new contact appears, ready to follow up.' },
+          { id: 'a5', type: 'action', label: 'Flag for review', sub: 'Google Sheets, add row', col: 3, row: 2, plain: 'Adds the odd-looking entry to a sheet so nothing is lost and a person can decide what to do.' },
+          { id: 'a6', type: 'action', label: 'Notify and follow up', sub: 'Email and chat message', col: 4, row: 0, plain: 'Sends the person a welcome message and lets me know a new lead arrived.' }
+        ],
+        edges: [['a1', 'a2'], ['a2', 'a3'], ['a3', 'a4', 'Yes'], ['a3', 'a5', 'No'], ['a4', 'a6']],
+        runs: [
+          { label: 'Valid email', steps: [['a1', 'A sample submission arrives: "Sample Lead", sample@example.com.'], ['a2', 'Trims spaces, lower-cases the email, splits the name.'], ['a3', 'The email looks valid, so take the Yes path.'], ['a4', 'Creates a contact in the CRM (demo only, no real API is called).'], ['a6', 'Sends a welcome message and notifies me.']] },
+          { label: 'Invalid email', steps: [['a1', 'A sample submission arrives with the email "sample@".'], ['a2', 'Trims spaces and tidies the fields.'], ['a3', 'The email does not look valid, so take the No path.'], ['a5', 'Adds a row to the review sheet for a manual check.']] }
+        ] },
+      { id: 'triage', tab: 'AI triage', title: 'AI assistant that sorts incoming messages',
+        plain: ['A message arrives from a chat or form tool. An AI agent reads it, decides what it is about and drafts a reply.',
+                'If the message needs a person, such as a complaint, it alerts me with the notes. Otherwise the draft reply is sent. Either way the conversation is logged.'],
+        nodes: [
+          { id: 'b1', type: 'webhook', label: 'Message arrives', sub: 'Webhook node', col: 0, row: 1, plain: 'A webhook URL listens for new messages. The chat tool calls it the moment a message is sent.' },
+          { id: 'b2', type: 'ai', label: 'Read and classify', sub: 'AI Agent, chat model', col: 1, row: 1, plain: 'An AI agent reads the message, labels the topic, judges how sensitive it is and writes a draft reply.' },
+          { id: 'b3', type: 'condition', label: 'Needs a human?', sub: 'IF node', col: 2, row: 1, plain: 'A guardrail. Anything flagged as sensitive goes to a person instead of being answered automatically.' },
+          { id: 'b4', type: 'action', label: 'Alert me with notes', sub: 'Email or chat alert', col: 3, row: 0, plain: 'Sends me the original message, the AI\'s notes and its draft, so I can step in with full context.' },
+          { id: 'b5', type: 'api', label: 'Send draft reply', sub: 'HTTP Request, chat API', col: 3, row: 2, plain: 'Posts the approved kind of reply back through the chat tool\'s API.' },
+          { id: 'b6', type: 'action', label: 'Log the conversation', sub: 'Sheets or CRM note', col: 4, row: 1, plain: 'Records what happened so I can review how the assistant is doing and improve it.' }
+        ],
+        edges: [['b1', 'b2'], ['b2', 'b3'], ['b3', 'b4', 'Yes'], ['b3', 'b5', 'No'], ['b4', 'b6'], ['b5', 'b6']],
+        runs: [
+          { label: 'Simple question', steps: [['b1', 'A sample message arrives: "What are your opening hours?"'], ['b2', 'Classifies it as a simple question and drafts a reply.'], ['b3', 'No human needed, so take the No path.'], ['b5', 'Sends the draft reply (demo only, nothing is actually sent).'], ['b6', 'Logs the conversation.']] },
+          { label: 'Sensitive message', steps: [['b1', 'A sample message arrives: "I want to make a complaint."'], ['b2', 'Classifies it as sensitive and writes notes plus a draft.'], ['b3', 'A person is needed, so take the Yes path.'], ['b4', 'Alerts me with the message, notes and draft.'], ['b6', 'Logs the conversation.']] }
+        ] },
+      { id: 'digest', tab: 'Daily digest', title: 'A morning summary built from an API',
+        plain: ['Every morning the workflow asks a data service for what changed. If nothing is new it quietly skips the day.',
+                'If there is something new, an AI step turns the raw data into a short, plain-English summary and emails it.'],
+        nodes: [
+          { id: 'c1', type: 'trigger', label: 'Every morning', sub: 'Schedule Trigger', col: 0, row: 1, plain: 'A clock instead of an event. This trigger starts the workflow at the same time each day.' },
+          { id: 'c2', type: 'api', label: 'Fetch latest data', sub: 'HTTP Request, data API', col: 1, row: 1, plain: 'Asks an outside service for the latest records. The reply comes back as structured JSON.' },
+          { id: 'c3', type: 'condition', label: 'Anything new?', sub: 'IF node', col: 2, row: 1, plain: 'Checks whether the reply actually contains new items, so I never get an empty digest.' },
+          { id: 'c4', type: 'ai', label: 'Write a summary', sub: 'AI Agent, summariser', col: 3, row: 0, plain: 'An AI step turns the raw records into a few readable sentences, with the numbers left to the data.' },
+          { id: 'c5', type: 'action', label: 'Send the digest', sub: 'Send Email node', col: 4, row: 0, plain: 'Emails the finished summary to me.' },
+          { id: 'c6', type: 'action', label: 'Skip today', sub: 'Stop and log', col: 3, row: 2, plain: 'Ends the run quietly and notes that there was nothing to report.' }
+        ],
+        edges: [['c1', 'c2'], ['c2', 'c3'], ['c3', 'c4', 'Yes'], ['c3', 'c6', 'No'], ['c4', 'c5']],
+        runs: [
+          { label: 'New data found', steps: [['c1', 'The schedule fires at the set time.'], ['c2', 'Fetches sample records from a data API (demo only).'], ['c3', 'There are new items, so take the Yes path.'], ['c4', 'Writes a short plain-English summary.'], ['c5', 'Emails the digest.']] },
+          { label: 'Nothing new', steps: [['c1', 'The schedule fires at the set time.'], ['c2', 'Fetches sample records and finds no changes.'], ['c3', 'Nothing new, so take the No path.'], ['c6', 'Stops quietly and logs that there was nothing to send.']] }
+        ] }
+    ],
+
+    tools: [
+      { n: 'n8n', cat: 'Automation', status: 'Practising', what: 'An open-source tool for building automations as connected nodes: triggers, actions, logic and AI steps.', use: 'Practice workflows with forms, APIs, branching and AI steps.' },
+      { n: 'GoHighLevel', cat: 'CRM', status: 'Practising', what: 'A platform for CRM, funnels, forms and workflow automation in one place.', use: 'Practice funnels, pipelines and follow-up workflows.' },
+      { n: 'Make', cat: 'Automation', status: 'Practising', what: 'A visual builder for automation scenarios, with routers and iterators for more complex logic.', use: 'Rebuilding the same logic as in n8n, to compare the two.' },
+      { n: 'Zapier', cat: 'Automation', status: 'Practising', what: 'A quick way to connect apps with trigger-and-action automations.', use: 'Quick integrations and side-by-side comparisons.' },
+      { n: 'AI agents', cat: 'AI', status: 'Exploring', what: 'Language-model steps that can read, decide and use tools, inside limits you set.', use: 'Concept designs and small experiments, always with guardrails.' },
+      { n: 'APIs', cat: 'Integration', status: 'Practising', what: 'The structured way software asks other software for data or actions.', use: 'Reading docs, testing requests, handling authentication and JSON.' },
+      { n: 'Webhooks', cat: 'Integration', status: 'Practising', what: 'URLs that receive a call the instant something happens elsewhere.', use: 'Starting workflows in real time and inspecting payloads.' },
+      { n: 'Website development', cat: 'Web', status: 'Building', what: 'HTML, CSS and JavaScript for responsive, accessible pages.', use: 'Building and refining custom pages, including this one.' },
+      { n: 'Vibe coding', cat: 'Web', status: 'Building', what: 'Building from plain-language instructions with an AI assistant, then reviewing what it makes.', use: 'Fast prototypes that I read, test and tidy before using.' },
+      { n: 'Graphic design', cat: 'Design', status: 'Practising', what: 'Layout, colour and typography that make ideas clear and memorable.', use: 'Visual direction, assets and interface polish.' }
+    ],
+
+    /* Replace these placeholders with real projects. Fill in image, link and
+       repo when you have them. Set placeholder:false once the card is real. */
+    projects: [
+      { kind: 'Practice workflow', title: 'Lead capture automation', placeholder: true,
+        summary: 'Replace with a short, honest description of what you built, for example how a form submission becomes a CRM contact and a follow-up message.',
+        tech: ['n8n', 'GoHighLevel', 'Webhooks'],
+        challenge: 'Replace with the real challenge you faced, such as mapping fields between tools.',
+        outcome: 'Replace with what you actually achieved or learned. Keep it factual, with no invented numbers.',
+        image: '', imageAlt: '', link: '', linkLabel: 'View project', repo: '' },
+      { kind: 'Concept and experiment', title: 'AI chatbot concept', placeholder: true,
+        summary: 'Replace with a description of your chatbot or agent idea, what it should do and how you tested it.',
+        tech: ['AI agents', 'APIs', 'Make'],
+        challenge: 'Replace with the real challenge, such as keeping answers on topic or handling unclear questions.',
+        outcome: 'Replace with the real outcome or lessons learned.',
+        image: '', imageAlt: '', link: '', linkLabel: 'View project', repo: '' },
+      { kind: 'Website build', title: 'Custom website practice build', placeholder: true,
+        summary: 'Replace with a description of a site or page you designed and built, and who it was for.',
+        tech: ['HTML', 'CSS', 'JavaScript'],
+        challenge: 'Replace with the real challenge, such as responsive layout or performance.',
+        outcome: 'Replace with the real outcome or what you would improve next.',
+        image: '', imageAlt: '', link: '', linkLabel: 'View project', repo: '' },
+      { kind: 'Visual design', title: 'Brand and graphic design pieces', placeholder: true,
+        summary: 'Replace with a description of your design work: posters, social graphics, a small brand system.',
+        tech: ['Graphic design', 'Typography'],
+        challenge: 'Replace with the real design problem you were solving.',
+        outcome: 'Replace with the real result or feedback you received.',
+        image: '', imageAlt: '', link: '', linkLabel: 'View project', repo: '' }
+    ],
+
+    steps: [
+      { t: 'Understand the problem', q: 'What is actually going wrong, and for whom?',
+        d: ['Ask what starts the work and what a good result looks like', 'List the inputs, the people involved and the awkward cases'] },
+      { t: 'Design the workflow', q: 'Can I draw it on one page?',
+        d: ['Sketch triggers, steps and branches before opening any tool', 'Choose the simplest design that works'] },
+      { t: 'Connect the tools', q: 'Which tool is right for each job?',
+        d: ['Pick between n8n, GoHighLevel, Make and Zapier for each part', 'Set up authentication, map the fields and wire the webhooks'] },
+      { t: 'Test the system', q: 'What happens with strange data?',
+        d: ['Run it with sample data, including awkward cases', 'Check each step\'s output, not just the final result'] },
+      { t: 'Handle errors', q: 'What happens when something fails at 3am?',
+        d: ['Plan for failed requests, missing fields and duplicates', 'Add retries, fallbacks and alerts so failures are visible'] },
+      { t: 'Improve the result', q: 'What can be simpler?',
+        d: ['Read the logs and gather feedback', 'Simplify, document, then go round again'] }
+    ],
+
+    exploring: [
+      { cat: 'AI', t: 'AI agents with tools and memory', why: 'Agents become useful when they can look things up and act, not just chat.', next: 'Build a small agent that checks a knowledge base before answering.' },
+      { cat: 'AI', t: 'Checking AI output', why: 'A reliable system needs ways to tell when the model is wrong.', next: 'Create a short set of test questions and review the answers.' },
+      { cat: 'Automation', t: 'Error handling and retries', why: 'Real workflows fail sometimes. What matters is how visibly and gracefully.', next: 'Add an error workflow and an alert to a practice automation.' },
+      { cat: 'Automation', t: 'Webhook security', why: 'A public URL can be called by anyone.', next: 'Learn secret tokens and signature checks.' },
+      { cat: 'Automation', t: 'API authentication', why: 'API keys and OAuth are the gatekeepers of almost every integration.', next: 'Connect one service with OAuth and one with an API key.' },
+      { cat: 'Automation', t: 'GoHighLevel with outside APIs', why: 'Extending the CRM beyond its built-in actions opens many more uses.', next: 'Trigger an n8n workflow from a GoHighLevel workflow.' },
+      { cat: 'Web', t: 'WebGL and motion', why: 'Interaction can explain an idea in a way a paragraph cannot.', next: 'Try scroll-driven scenes while keeping performance in check.' },
+      { cat: 'Web', t: 'Accessibility and performance', why: 'Fast and usable beats flashy.', next: 'Audit this site with Lighthouse and fix what it finds.' },
+      { cat: 'Design', t: 'Design systems and typography', why: 'Consistent rules make every new page quicker and calmer.', next: 'Document a palette and type scale for reuse.' }
+    ]
+  };
+
+  /* ------------------------------------------------------------------------
+     Helpers
+     ------------------------------------------------------------------------ */
+  var $ = function (s, c) { return (c || root).querySelector(s); };
+  var $$ = function (s, c) { return Array.prototype.slice.call((c || root).querySelectorAll(s)); };
+  var esc = function (s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); };
+  var clamp = function (v, a, b) { return Math.min(b, Math.max(a, v)); };
+  var pad = function (n) { return n < 10 ? '0' + n : '' + n; };
+  var motionQuery = window.matchMedia ? window.matchMedia('(prefers-reduced-motion: reduce)') : { matches: false };
+  var reduced = function () { return motionQuery.matches; };
+  var coarse = window.matchMedia ? window.matchMedia('(pointer: coarse)').matches : false;
+  var isMobile = function () { return window.innerWidth < 768; };
+  var S = { mx: 0, my: 0, sp: 0, three: false };
+  var PLACEHOLDER = /your-|your name|your-domain|example\./i;
+  var isPlaceholder = function (v) { return !v || PLACEHOLDER.test(v); };
+
+  function safe(name, fn) { try { fn(); } catch (err) { if (window.console) console.warn('[Beyond the Code] ' + name + ' failed:', err); } }
+
+  var toastTimer;
+  function toast(msg) {
+    var t = $('#toast'); if (!t) return;
+    t.textContent = msg; t.classList.add('is-on');
+    clearTimeout(toastTimer); toastTimer = setTimeout(function () { t.classList.remove('is-on'); }, 3400);
+  }
+  function swap(el) { el.classList.remove('b-swap'); void el.offsetWidth; el.classList.add('b-swap'); }
+  function scrollToEl(el, offset) {
+    var y = el.getBoundingClientRect().top + window.pageYOffset - (offset == null ? 72 : offset);
+    window.scrollTo({ top: Math.max(0, y), behavior: reduced() ? 'auto' : 'smooth' });
+  }
+
+  /* Accessible tab list: click, arrow keys, Home/End, roving tabindex */
+  function tabs(list, onSelect, initial) {
+    var items = $$('[role="tab"]', list);
+    var vertical = list.getAttribute('aria-orientation') === 'vertical';
+    function select(i, focus) {
+      items.forEach(function (t, j) {
+        var on = i === j;
+        t.setAttribute('aria-selected', on ? 'true' : 'false');
+        t.tabIndex = on ? 0 : -1;
+        t.classList.toggle('is-active', on);
+      });
+      if (focus) items[i].focus();
+      onSelect(i, items[i]);
+    }
+    items.forEach(function (t, i) {
+      t.addEventListener('click', function () { select(i); });
+      t.addEventListener('keydown', function (e) {
+        var n = null, nextKeys = vertical ? ['ArrowDown', 'ArrowRight'] : ['ArrowRight', 'ArrowDown'];
+        if (nextKeys.indexOf(e.key) > -1) n = (i + 1) % items.length;
+        else if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') n = (i - 1 + items.length) % items.length;
+        else if (e.key === 'Home') n = 0;
+        else if (e.key === 'End') n = items.length - 1;
+        if (n !== null) { e.preventDefault(); select(n, true); }
+      });
+    });
+    select(initial || 0);
+    return { select: select, count: items.length };
+  }
+
+  /* Load fonts if the head code was not added (keeps a single paste working) */
+  function ensureFonts() {
+    if (document.querySelector('link[href*="fonts.googleapis.com"]')) return;
+    var l = document.createElement('link');
+    l.rel = 'stylesheet';
+    l.href = 'https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300;1,6..72,400&family=Instrument+Sans:wght@400;500;600;700&display=swap';
+    document.head.appendChild(l);
+  }
+
+  /* ========================================================================
+     STAGE 1: FOUNDATION
+     ======================================================================== */
+  function initLinks() {
+    $$('[data-cfg="name"]').forEach(function (n) { n.textContent = CONFIG.name; });
+    var y = $('#year'); if (y) y.textContent = new Date().getFullYear();
+    $$('[data-link]').forEach(function (a) {
+      var k = a.getAttribute('data-link'), v = CONFIG[k], ph = isPlaceholder(v);
+      var txt = $('[data-link-text]', a); if (txt) txt.textContent = ph ? 'Add yours in CONFIG' : v.replace(/^https?:\/\/(www\.)?/, '');
+      if (ph) {
+        a.classList.add('is-placeholder');
+        a.addEventListener('click', function (e) { e.preventDefault(); e.stopPropagation(); toast('This is a placeholder. Add your real ' + k + ' in CONFIG.'); });
+      } else {
+        a.href = k === 'email' ? 'mailto:' + v : v;
+        if (k !== 'email') { a.target = '_blank'; a.rel = 'noopener noreferrer'; }
+      }
+    });
+  }
+
+  function initNav() {
+    var nav = $('#b-nav'), menu = $('.b-menu'), links = $('#b-links');
+    function close() { menu.setAttribute('aria-expanded', 'false'); menu.setAttribute('aria-label', 'Open menu'); links.classList.remove('is-open'); }
+    menu.addEventListener('click', function () {
+      var open = menu.getAttribute('aria-expanded') !== 'true';
+      menu.setAttribute('aria-expanded', open ? 'true' : 'false');
+      menu.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      links.classList.toggle('is-open', open);
+    });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
+
+    /* In-page anchors: smooth scroll with a nav offset, and move focus for keyboard users */
+    root.addEventListener('click', function (e) {
+      var a = e.target.closest && e.target.closest('a[href^="#"]');
+      if (!a || a.classList.contains('is-placeholder')) return;
+      var id = a.getAttribute('href').slice(1); if (!id) return;
+      var target = document.getElementById(id); if (!target) return;
+      e.preventDefault(); close();
+      if (id === 'top') window.scrollTo({ top: root.getBoundingClientRect().top + window.pageYOffset, behavior: reduced() ? 'auto' : 'smooth' });
+      else scrollToEl(target, id === 'b-main' ? 0 : 64);
+      target.setAttribute('tabindex', '-1'); target.focus({ preventScroll: true });
+    });
+
+    /* Highlight the current section in the nav */
+    var map = {}; $$('.b-links a[href^="#"]').forEach(function (a) { map[a.getAttribute('href').slice(1)] = a; });
+    if ('IntersectionObserver' in window) {
+      var io = new IntersectionObserver(function (es) {
+        es.forEach(function (en) {
+          if (!en.isIntersecting) return;
+          $$('.b-links a').forEach(function (a) { a.classList.remove('is-active'); a.removeAttribute('aria-current'); });
+          var a = map[en.target.id]; if (a) { a.classList.add('is-active'); a.setAttribute('aria-current', 'true'); }
+        });
+      }, { rootMargin: '-45% 0px -50% 0px' });
+      Object.keys(map).forEach(function (id) { var s = document.getElementById(id); if (s) io.observe(s); });
+    }
+    var tt = $('#totop'); if (tt) tt.addEventListener('click', function () { window.scrollTo({ top: root.getBoundingClientRect().top + window.pageYOffset, behavior: reduced() ? 'auto' : 'smooth' }); });
+  }
+
+  /* Scroll progress, nav state, hero parallax and decor drift in one rAF handler */
+  function initScrollFX() {
+    var bar = $('.b-progress span'), nav = $('#b-nav'), decor = $$('[data-depth]'), ticking = false;
+    function frame() {
+      ticking = false;
+      var y = window.pageYOffset, max = Math.max(1, document.documentElement.scrollHeight - window.innerHeight);
+      bar.style.transform = 'scaleX(' + clamp(y / max, 0, 1).toFixed(4) + ')';
+      nav.classList.toggle('is-stuck', y > 24);
+      S.sp = clamp(-root.getBoundingClientRect().top / window.innerHeight, 0, 1);
+      root.style.setProperty('--hp', S.sp.toFixed(3));
+      if (!reduced()) decor.forEach(function (d) {
+        var r = d.parentElement.getBoundingClientRect();
+        if (r.bottom < -200 || r.top > window.innerHeight + 200) return;
+        d.style.transform = 'translate3d(0,' + ((r.top + r.height / 2 - window.innerHeight / 2) * parseFloat(d.getAttribute('data-depth'))).toFixed(1) + 'px,0)';
+      });
+    }
+    window.addEventListener('scroll', function () { if (!ticking) { ticking = true; requestAnimationFrame(frame); } }, { passive: true });
+    window.addEventListener('resize', frame);
+    frame();
+  }
+
+  function initReveal() {
+    var els = $$('.b-rv');
+    if (!('IntersectionObserver' in window) || reduced()) { els.forEach(function (e) { e.classList.add('b-in'); }); return; }
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add('b-in'); io.unobserve(en.target); } });
+    }, { threshold: .1, rootMargin: '0px 0px -5% 0px' });
+    els.forEach(function (e) { io.observe(e); });
+    setTimeout(function () { els.forEach(function (e) { e.classList.add('b-in'); }); }, 6000); /* safety net */
+  }
+
+  /* Pointer position shared by the 3D scene and the CSS orb fallback */
+  function initPointer() {
+    var orb = $('.b-orb'), pending = false;
+    window.addEventListener('pointermove', function (e) {
+      S.mx = (e.clientX / window.innerWidth) * 2 - 1; S.my = (e.clientY / window.innerHeight) * 2 - 1;
+      if (!S.three && orb && !reduced() && !coarse && !pending) {
+        pending = true;
+        requestAnimationFrame(function () { pending = false; orb.style.translate = (S.mx * 16).toFixed(1) + 'px ' + (S.my * 12).toFixed(1) + 'px'; });
+      }
+    }, { passive: true });
+  }
+
+  /* ========================================================================
+     STAGE 2: CONTENT
+     ======================================================================== */
+  function initJourney() {
+    var list = $('#jtabs'), panel = $('#jpanel'), n = DATA.journey.length;
+    list.innerHTML = DATA.journey.map(function (j, i) {
+      return '<button type="button" role="tab" id="jt' + i + '" aria-controls="jpanel" aria-selected="false" tabindex="-1"><span class="b-tab-n">' + pad(i + 1) + '</span><span class="b-tab-t">' + esc(j.t) + '</span></button>';
+    }).join('');
+    var ul = function (a) { return '<ul>' + a.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul>'; };
+    tabs(list, function (i) {
+      var j = DATA.journey[i];
+      list.style.setProperty('--jp', (i / (n - 1)).toFixed(3));
+      panel.setAttribute('aria-labelledby', 'jt' + i);
+      panel.innerHTML = '<p class="b-jk">' + esc(j.k) + '</p><h3>' + esc(j.t) + '</h3><p class="b-jl">' + esc(j.lede) + '</p>' +
+        '<div class="b-jcols"><div><h4>What I learned</h4>' + ul(j.learned) + '</div><div><h4>What I built</h4>' + ul(j.built) + '</div><div><h4>Still exploring</h4>' + ul(j.exploring) + '</div></div>';
+      swap(panel);
+    });
+  }
+
+  function initToolkit() {
+    var host = $('#tools');
+    host.innerHTML = DATA.tools.map(function (t, i) {
+      return '<div class="b-tool b-rv" style="--i:' + (i % 5) + '"><button type="button" class="b-tool-btn" aria-pressed="false" aria-label="' + esc(t.n) + ': flip card for details"><span class="b-tool-in">' +
+        '<span class="b-face b-front"><span class="b-orbd" aria-hidden="true"></span><span class="b-tname">' + esc(t.n) + '</span><span class="b-tmeta"><span class="b-chip">' + esc(t.cat) + '</span><span class="b-st">' + esc(t.status) + '</span></span></span>' +
+        '<span class="b-face b-back"><span class="b-tq">What it is</span><span class="b-tp">' + esc(t.what) + '</span><span class="b-tq">How I use it</span><span class="b-tp">' + esc(t.use) + '</span></span></span></button></div>';
+    }).join('');
+    $$('.b-tool-btn', host).forEach(function (b) {
+      b.addEventListener('click', function () { var on = b.classList.toggle('is-flipped'); b.setAttribute('aria-pressed', on ? 'true' : 'false'); });
+      if (coarse) return;
+      b.addEventListener('pointermove', function (e) {
+        if (reduced() || b.classList.contains('is-flipped')) return;
+        var r = b.getBoundingClientRect(), px = (e.clientX - r.left) / r.width, py = (e.clientY - r.top) / r.height;
+        b.style.setProperty('--rx', ((.5 - py) * 14).toFixed(2) + 'deg'); b.style.setProperty('--ry', ((px - .5) * 16).toFixed(2) + 'deg');
+        b.style.setProperty('--gx', (px * 100).toFixed(0) + '%'); b.style.setProperty('--gy', (py * 100).toFixed(0) + '%');
+      });
+      b.addEventListener('pointerleave', function () { b.style.setProperty('--rx', '0deg'); b.style.setProperty('--ry', '0deg'); });
+    });
+  }
+
+  function initProjects() {
+    var host = $('#projects-grid');
+    host.innerHTML = DATA.projects.map(function (p, i) {
+      var shot = p.image
+        ? '<img src="' + esc(p.image) + '" alt="' + esc(p.imageAlt || p.title) + '" width="1600" height="1000" loading="lazy" decoding="async">'
+        : '<div class="b-ph"><span>Screenshot or workflow image goes here</span><small>1600 x 1000. Set DATA.projects[' + i + '].image</small></div>';
+      var ph = p.placeholder ? ' is-ph' : '';
+      var primary = p.link
+        ? '<a class="b-btn b-btn--sm" href="' + esc(p.link) + '" target="_blank" rel="noopener noreferrer">' + esc(p.linkLabel || 'View project') + '</a>'
+        : '<a class="b-btn b-btn--sm" href="#contact" data-ask="' + esc(p.title) + '">Ask about this project</a>';
+      var repo = p.repo ? '<a class="b-btn b-btn--sm b-btn--ghost" href="' + esc(p.repo) + '" target="_blank" rel="noopener noreferrer">View code</a>' : '';
+      return '<article class="b-proj b-rv" style="--i:' + (i % 2) + '"><div class="b-shot">' + shot + (p.placeholder ? '<span class="b-badge">Placeholder</span>' : '') + '</div>' +
+        '<div class="b-pbody"><p class="b-pkind">' + esc(p.kind) + '</p><h3>' + esc(p.title) + '</h3><p>' + esc(p.summary) + '</p>' +
+        '<ul class="b-tags" aria-label="Technologies">' + p.tech.map(function (t) { return '<li class="b-chip">' + esc(t) + '</li>'; }).join('') + '</ul>' +
+        '<dl class="b-pdl"><div><dt>Challenge</dt><dd class="' + ph + '">' + esc(p.challenge) + '</dd></div><div><dt>Outcome</dt><dd class="' + ph + '">' + esc(p.outcome) + '</dd></div></dl>' +
+        '<div class="b-pact">' + primary + repo + '</div></div></article>';
+    }).join('');
+    $$('[data-ask]', host).forEach(function (a) {
+      a.addEventListener('click', function () {
+        var f = $('#cform'); if (f) f.elements.fmsg.value = 'Hi, I\'d like to know more about "' + a.getAttribute('data-ask') + '".';
+      });
+    });
+  }
+
+  function initMethod() {
+    var list = $('#mtabs'), panel = $('#mpanel'), n = DATA.steps.length, api;
+    list.innerHTML = DATA.steps.map(function (s, i) {
+      return '<button type="button" role="tab" id="mt' + i + '" aria-controls="mpanel" aria-selected="false" tabindex="-1"><span class="b-tab-n">' + pad(i + 1) + '</span><span class="b-tab-t">' + esc(s.t) + '</span></button>';
+    }).join('');
+    api = tabs(list, function (i) {
+      var s = DATA.steps[i], off = (326.7 * (1 - (i + 1) / n)).toFixed(1);
+      panel.setAttribute('aria-labelledby', 'mt' + i);
+      panel.innerHTML = '<div class="b-ring"><svg viewBox="0 0 120 120" aria-hidden="true"><circle class="bg" cx="60" cy="60" r="52"/><circle class="fg" cx="60" cy="60" r="52" style="stroke-dashoffset:' + off + '"/></svg><span>' + pad(i + 1) + '</span></div>' +
+        '<div><h3>' + esc(s.t) + '</h3><p class="b-q">' + esc(s.q) + '</p><ul>' + s.d.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul>' +
+        '<div class="b-mnav"><button type="button" class="b-btn b-btn--sm b-btn--ghost" data-prev>Previous step</button><button type="button" class="b-btn b-btn--sm" data-next>' + (i === n - 1 ? 'Back to the start' : 'Next step') + '</button></div></div>';
+      swap(panel);
+      $('[data-prev]', panel).addEventListener('click', function () { api.select((i - 1 + n) % n, true); });
+      $('[data-next]', panel).addEventListener('click', function () { api.select((i + 1) % n, true); });
+    });
+  }
+
+  function initExploring() {
+    var cats = ['All'].concat(DATA.exploring.map(function (x) { return x.cat; }).filter(function (c, i, a) { return a.indexOf(c) === i; }));
+    var f = $('#exfilters'), grid = $('#exgrid');
+    f.innerHTML = cats.map(function (c, i) { return '<button type="button" aria-pressed="' + (i === 0) + '" data-cat="' + esc(c) + '">' + esc(c) + '</button>'; }).join('');
+    function draw(cat) {
+      grid.innerHTML = DATA.exploring.filter(function (x) { return cat === 'All' || x.cat === cat; }).map(function (x, i) {
+        return '<article class="b-ex" style="--i:' + i + '"><span class="b-chip">' + esc(x.cat) + '</span><h3>' + esc(x.t) + '</h3><p>' + esc(x.why) + '</p><p class="b-next"><b>Next:</b> ' + esc(x.next) + '</p></article>';
+      }).join('');
+    }
+    draw('All');
+    $$('button', f).forEach(function (b) {
+      b.addEventListener('click', function () {
+        $$('button', f).forEach(function (o) { o.setAttribute('aria-pressed', o === b ? 'true' : 'false'); });
+        grid.classList.add('b-anim'); draw(b.getAttribute('data-cat'));
+      });
+    });
+    var names = DATA.exploring.map(function (x) { return '<span>' + esc(x.t) + '</span>'; }).join('');
+    $('#marq').innerHTML = names + names;
+  }
+
+  function initContact() {
+    var copy = $('#copyemail'), form = $('#cform'), status = $('#cstatus');
+    copy.addEventListener('click', function () {
+      if (isPlaceholder(CONFIG.email)) { toast('This is a placeholder. Add your real email in CONFIG.'); return; }
+      var done = function () { toast('Email address copied.'); };
+      if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(CONFIG.email).then(done, function () { toast('Copy failed. The address is ' + CONFIG.email); });
+      else { var t = document.createElement('textarea'); t.value = CONFIG.email; document.body.appendChild(t); t.select(); try { document.execCommand('copy'); done(); } catch (e) { toast('Copy failed. The address is ' + CONFIG.email); } document.body.removeChild(t); }
+    });
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var n = form.elements.fname.value.trim(), em = form.elements.femail.value.trim(), m = form.elements.fmsg.value.trim();
+      if (!n || !/^\S+@\S+\.\S+$/.test(em) || !m) { status.textContent = 'Please add your name, a valid email address and a short message.'; return; }
+      if (isPlaceholder(CONFIG.email)) { status.textContent = 'The destination email is still a placeholder. Add yours in CONFIG.'; return; }
+      status.textContent = 'Opening your email app with the message ready to send.';
+      window.location.href = 'mailto:' + CONFIG.email + '?subject=' + encodeURIComponent('Portfolio enquiry from ' + n) + '&body=' + encodeURIComponent(m + '\n\n' + n + ' (' + em + ')');
+    });
+  }
+
+  /* ========================================================================
+     STAGE 4: AUTOMATION LAB (workflow diagrams, run demo, explorer)
+     ======================================================================== */
+  var WF = {};
+  function initWorkflow() {
+    var NW = 188, NH = 74, GX = 56, GY = 34, PAD = 28;
+    var svg = $('#wfsvg'), tabsEl = $('#wftabs'), titleEl = $('#wftitle'), plainEl = $('#wfplain'), nodeBox = $('#wfnode'), log = $('#wflog'), seg = $('#wfseg'), runBtn = $('#wfrun'), resetBtn = $('#wfreset'), hlChip = $('#wfhl');
+    var cur = 0, runIdx = 0, timers = [], hl = null, tabApi;
+    var pos = function (n) { return { x: PAD + n.col * (NW + GX), y: PAD + n.row * (NH + GY) }; };
+    var byId = function (w, id) { return w.nodes.filter(function (n) { return n.id === id; })[0]; };
+
+    tabsEl.innerHTML = DATA.workflows.map(function (w, i) { return '<button type="button" role="tab" id="wt' + i + '" aria-controls="wfpanel" aria-selected="false" tabindex="-1">' + esc(w.tab) + '</button>'; }).join('');
+
+    function reset() {
+      timers.forEach(clearTimeout); timers = [];
+      runBtn.disabled = false; runBtn.textContent = 'Run demonstration';
+      $$('.b-n', svg).forEach(function (n) { n.classList.remove('is-run', 'is-done'); });
+      $$('.b-e', svg).forEach(function (e) { e.classList.remove('on'); });
+      log.innerHTML = '';
+    }
+    function applyHL() {
+      $$('.b-n', svg).forEach(function (n) { n.classList.toggle('is-dim', !!hl && n.getAttribute('data-type') !== hl); });
+      if (hl) {
+        hlChip.hidden = false;
+        hlChip.innerHTML = 'Highlighting ' + esc(DATA.types[hl].label) + ' steps <button type="button" id="wfclear">Clear</button>';
+        $('#wfclear').addEventListener('click', function () { hl = null; applyHL(); });
+      } else { hlChip.hidden = true; hlChip.textContent = ''; }
+    }
+    function showNode(id) {
+      var w = DATA.workflows[cur], n = byId(w, id), T = DATA.types[n.type];
+      $$('.b-n', svg).forEach(function (g) { g.classList.toggle('is-sel', g.getAttribute('data-id') === id); });
+      nodeBox.innerHTML = '<p class="b-chip">' + esc(T.label) + '</p><h5 style="margin-top:.7rem">' + esc(n.label) + '</h5><p>' + esc(n.plain) + '</p><p><b>Built with:</b> ' + esc(n.sub) + '</p><p><b>Role of a ' + esc(T.label.toLowerCase()) + ':</b> ' + esc(T.role.split('. ')[0]) + '.</p>';
+    }
+    function build(i) {
+      cur = i; var w = DATA.workflows[i]; reset();
+      var cols = Math.max.apply(null, w.nodes.map(function (n) { return n.col; })) + 1, rows = Math.max.apply(null, w.nodes.map(function (n) { return n.row; })) + 1;
+      var W = PAD * 2 + cols * NW + (cols - 1) * GX, H = PAD * 2 + rows * NH + (rows - 1) * GY;
+      svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
+      svg.setAttribute('aria-label', 'Workflow diagram: ' + w.title + '. ' + w.nodes.length + ' steps.');
+      var s = '<defs><marker id="b-arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="rgba(248,246,241,.5)"/></marker><marker id="b-arrOn" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#A3AD96"/></marker></defs>';
+      w.edges.forEach(function (e) {
+        var a = byId(w, e[0]), b = byId(w, e[1]), pa = pos(a), pb = pos(b);
+        var x1 = pa.x + NW, y1 = pa.y + NH / 2, x2 = pb.x - 2, y2 = pb.y + NH / 2, dx = Math.max(24, (x2 - x1) / 2);
+        s += '<path class="b-e" data-from="' + e[0] + '" data-to="' + e[1] + '" d="M' + x1 + ' ' + y1 + 'C' + (x1 + dx) + ' ' + y1 + ' ' + (x2 - dx) + ' ' + y2 + ' ' + x2 + ' ' + y2 + '"/>';
+        if (e[2]) s += '<text class="b-el" x="' + ((x1 + x2) / 2) + '" y="' + ((y1 + y2) / 2 + 4) + '" text-anchor="middle">' + esc(e[2]) + '</text>';
+      });
+      w.nodes.forEach(function (n) {
+        var p = pos(n), T = DATA.types[n.type];
+        s += '<g class="b-n b-n--' + n.type + '" data-id="' + n.id + '" data-type="' + n.type + '" transform="translate(' + p.x + ' ' + p.y + ')" tabindex="0" role="button" aria-label="' + esc(T.label + ': ' + n.label) + '">' +
+          '<rect width="' + NW + '" height="' + NH + '" rx="16"/><text class="b-nt" x="16" y="24">' + esc(T.label) + '</text><text class="b-nl" x="16" y="45">' + esc(n.label) + '</text><text class="b-ns" x="16" y="62">' + esc(n.sub) + '</text></g>';
+      });
+      svg.innerHTML = s;
+      $$('.b-n', svg).forEach(function (g) {
+        g.addEventListener('click', function () { showNode(g.getAttribute('data-id')); });
+        g.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); showNode(g.getAttribute('data-id')); } });
+      });
+      titleEl.textContent = w.title;
+      plainEl.innerHTML = w.plain.map(function (p) { return '<p>' + esc(p) + '</p>'; }).join('');
+      nodeBox.innerHTML = '<p>Select any step in the diagram to see what it does and what it is built with.</p>';
+      runIdx = 0; renderSeg(); applyHL();
+    }
+    function renderSeg() {
+      var w = DATA.workflows[cur];
+      seg.innerHTML = w.runs.map(function (r, k) { return '<button type="button" data-k="' + k + '" aria-pressed="' + (k === runIdx) + '">' + esc(r.label) + '</button>'; }).join('');
+      $$('button', seg).forEach(function (b) { b.addEventListener('click', function () { runIdx = +b.getAttribute('data-k'); reset(); renderSeg(); }); });
+    }
+    function run() {
+      reset();
+      var w = DATA.workflows[cur], steps = w.runs[runIdx].steps, gap = reduced() ? 0 : 950;
+      runBtn.disabled = true; runBtn.textContent = 'Running';
+      steps.forEach(function (st, k) {
+        timers.push(setTimeout(function () {
+          var g = $('.b-n[data-id="' + st[0] + '"]', svg), T = DATA.types[byId(w, st[0]).type];
+          if (k > 0) {
+            var pg = $('.b-n[data-id="' + steps[k - 1][0] + '"]', svg); pg.classList.remove('is-run'); pg.classList.add('is-done');
+            var ed = $('.b-e[data-from="' + steps[k - 1][0] + '"][data-to="' + st[0] + '"]', svg); if (ed) ed.classList.add('on');
+          }
+          g.classList.add('is-run');
+          var li = document.createElement('li'); li.innerHTML = '<b>' + esc(T.label) + '.</b>' + esc(st[1]); log.appendChild(li);
+          if (k === steps.length - 1) timers.push(setTimeout(function () {
+            g.classList.remove('is-run'); g.classList.add('is-done');
+            var d = document.createElement('li'); d.innerHTML = '<b>Done.</b>The demonstration finished. Nothing was sent anywhere.'; log.appendChild(d);
+            runBtn.disabled = false; runBtn.textContent = 'Run again';
+          }, gap * .8));
+        }, k * gap));
+      });
+    }
+    runBtn.addEventListener('click', run);
+    resetBtn.addEventListener('click', function () { reset(); });
+    tabApi = tabs(tabsEl, function (i) { build(i); }, 0);
+
+    /* Used by the explorer: jump to a workflow that contains this block type and highlight it */
+    WF.showType = function (type) {
+      var has = function (w) { return w.nodes.some(function (n) { return n.type === type; }); };
+      var idx = has(DATA.workflows[cur]) ? cur : DATA.workflows.findIndex(has);
+      if (idx < 0) return;
+      if (idx !== cur) tabApi.select(idx);
+      hl = type; applyHL();
+      scrollToEl($('.b-wf-head'), 90);
+    };
+  }
+
+  function initExplorer() {
+    var list = $('#extabs'), panel = $('#expanel'), keys = Object.keys(DATA.types);
+    list.innerHTML = keys.map(function (k, i) {
+      return '<button type="button" role="tab" id="et' + i + '" aria-controls="expanel" aria-selected="false" tabindex="-1"><span class="b-sw b-sw--' + k + '" aria-hidden="true"></span>' + esc(DATA.types[k].label) + '</button>';
+    }).join('');
+    tabs(list, function (i) {
+      var k = keys[i], t = DATA.types[k];
+      panel.setAttribute('aria-labelledby', 'et' + i);
+      panel.innerHTML = '<p class="b-ek"><span class="b-sw b-sw--' + k + '" aria-hidden="true"></span>' + esc(t.label) + '</p><h3>' + esc(t.headline) + '</h3><p class="b-er">' + esc(t.role) + '</p>' +
+        '<dl><div><dt>Think of it as</dt><dd>' + esc(t.analogy) + '</dd></div><div><dt>Example</dt><dd>' + esc(t.example) + '</dd></div><div><dt>Where I use it</dt><dd>' + esc(t.tool) + '</dd></div><div><dt>Watch out for</dt><dd>' + esc(t.watch) + '</dd></div></dl>' +
+        '<button type="button" class="b-btn b-btn--sm" data-show>Show it in a workflow</button>';
+      swap(panel);
+      $('[data-show]', panel).addEventListener('click', function () { WF.showType(k); });
+    });
+  }
+
+  /* ========================================================================
+     STAGE 3: 3D HERO (Three.js, optional)
+     ======================================================================== */
+  function loadScript(src) {
+    return new Promise(function (resolve, reject) {
+      var s = document.createElement('script'), done = false;
+      s.src = src; s.async = true;
+      s.onload = function () { done = true; resolve(); };
+      s.onerror = function () { reject(new Error('load failed')); };
+      document.head.appendChild(s);
+      setTimeout(function () { if (!done) reject(new Error('timeout')); }, 9000);
+    });
+  }
+
+  function initScene() {
+    var stage = $('#stage'); if (!stage || !CONFIG.enable3D) return;
+    var c = navigator.connection;
+    if (c && (c.saveData || /2g/.test(c.effectiveType || ''))) return;                     /* data saver: keep the light CSS orb */
+    if (isMobile() && (navigator.hardwareConcurrency || 4) < 4) return;                    /* low-power phones: CSS orb */
+    var ready = window.THREE ? Promise.resolve() : loadScript(CONFIG.three);
+    ready.then(function () { if (window.THREE) build(stage); }).catch(function (err) { if (window.console) console.info('[Beyond the Code] 3D unavailable, using CSS fallback.', err && err.message); });
+  }
+
+  function build(stage) {
+    var T = window.THREE, mobile = isMobile(), renderer, raf = 0, vis = true;
+    try { renderer = new T.WebGLRenderer({ antialias: !mobile, alpha: true, powerPreference: 'high-performance' }); } catch (e) { return; }
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, mobile ? 1.5 : 2));
+    renderer.outputEncoding = T.sRGBEncoding; renderer.toneMapping = T.ACESFilmicToneMapping; renderer.toneMappingExposure = 1.05;
+    var cv = renderer.domElement; cv.className = 'b-canvas'; cv.setAttribute('aria-hidden', 'true'); stage.insertBefore(cv, stage.firstChild);
+    cv.addEventListener('webglcontextlost', function (e) { e.preventDefault(); cancelAnimationFrame(raf); stage.classList.remove('is-3d'); S.three = false; });
+
+    var scene = new T.Scene(), camera = new T.PerspectiveCamera(32, 1, .1, 60); camera.position.set(0, 0, 10);
+
+    /* Soft studio environment so the glass has something to reflect */
+    var pm = new T.PMREMGenerator(renderer), env = new T.Scene();
+    env.add(new T.Mesh(new T.BoxGeometry(30, 30, 30), new T.MeshBasicMaterial({ color: 0xcfc6b8, side: T.BackSide })));
+    function panel(w, h, p, hex, k) { var m = new T.Mesh(new T.PlaneGeometry(w, h), new T.MeshBasicMaterial({ color: new T.Color(hex).multiplyScalar(k), side: T.DoubleSide })); m.position.set(p[0], p[1], p[2]); m.lookAt(0, 0, 0); env.add(m); }
+    panel(14, 5, [0, 9, 4], 0xffffff, 5); panel(5, 12, [-9, 1, 2], 0xA3AD96, 3); panel(5, 12, [9, 0, 3], 0xF8F6F1, 4); panel(16, 3, [0, -9, 3], 0x30271F, 1.2);
+    scene.environment = pm.fromScene(env, .03).texture; pm.dispose();
+
+    scene.add(new T.AmbientLight(0xffffff, .4));
+    var key = new T.DirectionalLight(0xfff4e6, 1.2); key.position.set(4, 5, 6); scene.add(key);
+    var fill = new T.PointLight(0xA3AD96, 1.2, 24); fill.position.set(-5, -2, 4); scene.add(fill);
+
+    var g = new T.Group(); scene.add(g);
+    var seg = mobile ? 40 : 72;
+    var shell = new T.Mesh(new T.SphereGeometry(1.7, seg, seg), new T.MeshPhysicalMaterial({ color: 0xffffff, roughness: .04, metalness: 0, transparent: true, opacity: .22, clearcoat: 1, clearcoatRoughness: .04, envMapIntensity: 1.8, depthWrite: false }));
+    var core = new T.Mesh(new T.IcosahedronGeometry(.78, 1), new T.MeshStandardMaterial({ color: 0xA3AD96, roughness: .38, metalness: .3, flatShading: true, envMapIntensity: 1.2 }));
+    var wire = new T.LineSegments(new T.EdgesGeometry(new T.IcosahedronGeometry(1.15, 1)), new T.LineBasicMaterial({ color: 0x30271F, transparent: true, opacity: .4 }));
+    var r1 = new T.Mesh(new T.TorusGeometry(2.15, .022, 12, 160), new T.MeshStandardMaterial({ color: 0x30271F, roughness: .28, metalness: .7 })); r1.rotation.x = 1.15;
+    var r2 = new T.Mesh(new T.TorusGeometry(2.6, .016, 12, 160), new T.MeshStandardMaterial({ color: 0xA3AD96, roughness: .4, metalness: .4 })); r2.rotation.set(.35, 0, .9);
+    g.add(core, wire, shell, r1, r2);
+
+    /* Floating workflow nodes, linked in sequence, with a data packet travelling along the chain */
+    var N = mobile ? 6 : 9, nodes = [];
+    var mA = new T.MeshStandardMaterial({ color: 0x30271F, roughness: .35, metalness: .5 }), mB = new T.MeshStandardMaterial({ color: 0xA3AD96, roughness: .3, metalness: .3 });
+    var gSmall = new T.OctahedronGeometry(.1, 0), gBig = new T.SphereGeometry(.14, 20, 20);
+    for (var i = 0; i < N; i++) {
+      var m = new T.Mesh(i % 3 === 0 ? gBig : gSmall, i % 2 ? mB : mA);
+      m.userData = { r: 2.5 + (i % 3) * .35, a: (i / N) * Math.PI * 2, s: .12 + ((i * 37) % 10) / 100, y: (i % 4 - 1.5) * .55, ph: i * 1.7 };
+      g.add(m); nodes.push(m);
+    }
+    var lp = new Float32Array(N * 3), lg = new T.BufferGeometry(); lg.setAttribute('position', new T.BufferAttribute(lp, 3));
+    g.add(new T.Line(lg, new T.LineBasicMaterial({ color: 0x30271F, transparent: true, opacity: .35 })));
+    var packet = new T.Mesh(new T.SphereGeometry(.075, 16, 16), new T.MeshBasicMaterial({ color: 0xA3AD96 })); g.add(packet);
+
+    var tx = 0, ty = 0, t0 = performance.now();
+    function update(t) {
+      nodes.forEach(function (m, i) {
+        var u = m.userData, a = u.a + t * u.s;
+        m.position.set(Math.cos(a) * u.r, u.y + Math.sin(t * .6 + u.ph) * .25, Math.sin(a) * u.r * .8);
+        m.rotation.y = t * .6; lp[i * 3] = m.position.x; lp[i * 3 + 1] = m.position.y; lp[i * 3 + 2] = m.position.z;
+      });
+      lg.attributes.position.needsUpdate = true;
+      var f = (t * .6) % (N - 1), k = Math.floor(f); packet.position.lerpVectors(nodes[k].position, nodes[k + 1].position, f - k);
+      core.rotation.y = t * .25; core.rotation.x = t * .12; wire.rotation.y = -t * .18; r1.rotation.z = t * .12; r2.rotation.y = t * .09;
+      tx += (S.mx - tx) * .06; ty += (S.my - ty) * .06;
+      g.rotation.y = t * .08 + tx * .6; g.rotation.x = ty * .3 + S.sp * .5; g.rotation.z = S.sp * .4;
+      g.position.y = Math.sin(t * .8) * .12 - S.sp * .6; g.scale.setScalar(1 - S.sp * .2);
+    }
+    function frame() { update((performance.now() - t0) / 1000); renderer.render(scene, camera); }
+    function loop() { raf = 0; if (!vis || document.hidden) return; frame(); raf = requestAnimationFrame(loop); }
+    function start() { if (reduced()) { frame(); } else if (!raf && vis && !document.hidden) { raf = requestAnimationFrame(loop); } }
+
+    function resize() {
+      var w = stage.clientWidth || 1, h = stage.clientHeight || 1;
+      renderer.setSize(w, h, false); camera.aspect = w / h; camera.position.z = w / h < 1 ? 10 / Math.max(.7, w / h) * .85 : 10; camera.updateProjectionMatrix();
+      if (reduced() || !raf) frame();
+    }
+    if ('ResizeObserver' in window) new ResizeObserver(resize).observe(stage); else window.addEventListener('resize', resize);
+    if ('IntersectionObserver' in window) new IntersectionObserver(function (es) { vis = es[0].isIntersecting; if (vis) start(); }).observe(stage);
+    document.addEventListener('visibilitychange', start);
+
+    resize(); frame();
+    S.three = true; stage.classList.add('is-3d'); start();
+  }
+
+  /* ------------------------------------------------------------------------
+     Boot
+     ------------------------------------------------------------------------ */
+  safe('fonts', ensureFonts);
+  safe('links', initLinks);
+  safe('nav', initNav);
+  safe('pointer', initPointer);
+  safe('journey', initJourney);
+  safe('workflow', initWorkflow);
+  safe('explorer', initExplorer);
+  safe('toolkit', initToolkit);
+  safe('projects', initProjects);
+  safe('method', initMethod);
+  safe('exploring', initExploring);
+  safe('contact', initContact);
+  safe('reveal', initReveal);
+  safe('scroll', initScrollFX);
+  var idle = window.requestIdleCallback || function (f) { return setTimeout(f, 350); };
+  idle(function () { safe('scene', initScene); });
+})();
+</script>
+</body></html>
